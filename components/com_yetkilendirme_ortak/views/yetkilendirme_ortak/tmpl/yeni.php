@@ -297,8 +297,8 @@ $protokolID = JRequest::getVar("protokolID");
 
 		<div style="<?php echo $kurulusVeYeterlilikVisibilitysi; ?>" class="kurulus_wrapper">
 			<div>
-				<strong>Yetkilendirmeye Dahil Kuruluşlar:</strong>
-				<input type="checkbox" id="yetkilendirmeyeDahilKurulusCheckbox" <?php if($_GET['tumKuruluslar']=='1') echo ' checked '; ?> >Tüm Kuruluşlar
+				<strong>Kuruluş Listesi</strong>
+<!--				<input type="checkbox" id="yetkilendirmeyeDahilKurulusCheckbox" --><?php //if($_GET['tumKuruluslar']=='1') echo ' checked '; ?><!-- >Tüm Kuruluşlar-->
 			</div>
 
 			<div class="gridview_wrapper">

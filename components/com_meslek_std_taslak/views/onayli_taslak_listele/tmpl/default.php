@@ -88,7 +88,7 @@ else{
 				<td><a href="#" id="kurul_oncesi">deede</a></td>
 			</tr>
 			<tr>
-				<td>Yayınlanmış yeterlilik</td>
+				<td>Yayınlanmış Meslek Standartı</td>
 				<td><a href="#" id="son_taslak">deede</a></td>
 			</tr>
 		</table>

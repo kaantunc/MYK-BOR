@@ -1325,7 +1325,8 @@ class Meslek_Std_TaslakModelTaslak_Kaydet extends JModel
 						   WHERE standart_id = ?";
 
 
-                        $_db->prep_exec_insert($sql, $params);
+                        $sonuc= $_db->prep_exec_insert($sql, $params);
+
                     }
                     if (isset($post['revizyon_durum']) && $post['revizyon_durum'] <> "") {
                         if ($post['revizyon_durum'] == "1") {

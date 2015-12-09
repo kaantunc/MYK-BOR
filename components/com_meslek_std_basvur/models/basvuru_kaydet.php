@@ -665,15 +665,15 @@ class Meslek_Std_BasvurModelBasvuru_Kaydet extends JModel {
 		$error_ek_dokuman       = $this->raporKaydetYeni($evrak_id,"ek_dokuman");
 	
 		$return  = array( 	'evrak_id' => $evrak_id,
-							'file_upload_errors' => array_merge(basvuru_dokuman,$error_ek_dokuman));
+							'file_upload_errors' => array_merge($error_basvuru_dokuman,$error_ek_dokuman));
 		return $return;
 	}
 	function kurulusYetkiKaydet ($db, $evrakId, $durum){
 		$result = true;
-		$user_id 	   = getUserId ($db, $evrakId);
-		$basvuruTipler = getBasvurTipValues ($db, $user_id);
-		$kurulusDurum  = getKurulusDurum($db, $user_id);
-		$tur		   = getBasvuruTur ($db, $evrakId);
+		$user_id 	   = $this->getUserId ($db, $evrakId);
+		$basvuruTipler = $this->getBasvurTipValues ($db, $user_id);
+		$kurulusDurum  = $this->getKurulusDurum($db, $user_id);
+		$tur		   = $this->getBasvuruTur ($db, $evrakId);
 
 		if ($durum == ONAYLANMIS_BASVURU){
 			if ($kurulusDurum == 1){
@@ -698,14 +698,14 @@ class Meslek_Std_BasvurModelBasvuru_Kaydet extends JModel {
 
 
 				if ($durum != -1){
-					$yetki = getKurulusYetkiNo ($db, $user_id);
+					$yetki = $this->getKurulusYetkiNo ($db, $user_id);
 
 					if ($yetki == null){
 						$yetNo = $db->getNextVal(KURULUS_YETKILENDIRME_NO_SEQ);
 						$kurulusYetkiNo = "YB-".str_pad($yetNo, 4, "0", STR_PAD_LEFT);
-						$result = kurulusYetkiGuncelle ($db, $kurulusYetkiNo, $durum, $user_id);
+						$result = $this->kurulusYetkiGuncelle ($db, $kurulusYetkiNo, $durum, $user_id);
 					}else{
-						$result = kurulusDurumGuncelle ($db, $durum, $user_id);
+						$result = $this->kurulusDurumGuncelle ($db, $durum, $user_id);
 					}
 				}
 			}else{ //Onceden Yetkilendirilmis
@@ -825,7 +825,7 @@ class Meslek_Std_BasvurModelBasvuru_Kaydet extends JModel {
 				}
 
 				if ($durum != -1)
-					$result = kurulusDurumGuncelle ($db, $durum, $user_id);
+					$result = $this->kurulusDurumGuncelle ($db, $durum, $user_id);
 			}
 		}else if ($durum == REDDEDILMIS_BASVURU){
 			$result = true;
@@ -948,11 +948,107 @@ class Meslek_Std_BasvurModelBasvuru_Kaydet extends JModel {
 						break;
 				}
 
-				$result = kurulusDurumGuncelle ($db, $durum, $user_id);
+				$result = $this->kurulusDurumGuncelle ($db, $durum, $user_id);
 			}
 		}
 
 		return $result;
+	}
+	function getBasvurTipValues ($db, $user_id){
+		$sql = "SELECT DISTINCT (BASVURU_TIP_ID)
+			FROM M_BASVURU
+			WHERE BASVURU_TIP_ID != ".MS_PROTOKOL_BASVURU_TIP." AND
+				  BASVURU_TIP_ID != ".YET_PROTOKOL_BASVURU_TIP." AND
+				  BASVURU_DURUM_ID = ".ONAYLANMIS_BASVURU." AND
+				  USER_ID = ?";
+
+		$data = $db->prep_exec($sql, array($user_id));
+
+		if (isset($data[0])){
+			return $data[0];
+		}else{
+			return array();
+		}
+	}
+	function getKurulusDurum($db, $user_id){
+		$sql = "SELECT KURULUS_DURUM_ID
+			FROM M_KURULUS
+			WHERE USER_ID = ?";
+
+		$data = $db->prep_exec_array($sql, array($user_id));
+
+		if (isset($data[0])){
+			return $data[0];
+		}else{
+			return null;
+		}
+	}
+
+	function getBasvuruTur ($db, $evrakId){
+		$sql = "SELECT BASVURU_TIP_ID
+			FROM M_BASVURU
+			WHERE EVRAK_ID = ?";
+
+		$data = $db->prep_exec_array($sql, array($evrakId));
+
+		if (isset($data[0])){
+			return $data[0];
+		}else{
+			return null;
+		}
+	}
+
+	function getUserId ($db, $evrakId){
+		$sql = "SELECT USER_ID
+			FROM M_BASVURU
+			WHERE EVRAK_ID = ?";
+
+		$data = $db->prep_exec_array($sql, array($evrakId));
+
+		if (isset($data[0])){
+			return $data[0];
+		}else{
+			return null;
+		}
+	}
+
+	function kurulusYetkiGuncelle ($db, $kurulusYetkiNo, $kurulusDurum, $userId){
+
+// 	$sqlLogo = "SELECT LOGO FROM M_KURULUS WHERE USER_ID = ?";
+// 	$logos = $db->prep_exec($sqlLogo, array($userId));
+
+// 	if(!empty($logos[0]['LOGO'])){
+// 		$logResim = explode('.', $logos[0]['LOGO']);
+// 		rename(EK_FOLDER.'logolar/'.$logos[0]['LOGO'],EK_FOLDER.'logolar/'.$kurulusYetkiNo.$logResim[1]);
+// 	}
+
+// 	$sql = "UPDATE M_KURULUS
+// 			SET KURULUS_YETKILENDIRME_NUMARASI = ?,
+// 				KURULUS_DURUM_ID = ?
+// 			WHERE USER_ID = ?";
+
+		$sql = "UPDATE M_KURULUS
+			SET KURULUS_DURUM_ID = ?
+			WHERE USER_ID = ?";
+
+		return $db->prep_exec_insert($sql, array($kurulusDurum, $userId));
+	}
+
+	function kurulusDurumGuncelle ($db, $kurulusDurum, $userId){
+		$sql = "UPDATE M_KURULUS
+			SET KURULUS_DURUM_ID = ?
+			WHERE USER_ID = ?";
+
+		return $db->prep_exec_insert($sql, array($kurulusDurum, $userId));
+	}
+	function getKurulusYetkiNo ($db, $userId){
+		$sql = "SELECT KURULUS_YETKILENDIRME_NUMARASI
+			FROM M_KURULUS
+			WHERE USER_ID = ?";
+
+		$data = $db->prep_exec_array($sql, array($userId));
+
+		return $data[0];
 	}
 	function readDocument($path){
 	

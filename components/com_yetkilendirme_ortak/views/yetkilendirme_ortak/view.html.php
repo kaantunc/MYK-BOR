@@ -26,10 +26,10 @@ class Yetkilendirme_OrtakViewYetkilendirme_Ortak extends JView
 			$this->setLayout($layout);
 		}
 		
-		if($_GET['tumKuruluslar']=='1')
+//		if($_GET['tumKuruluslar']=='1')
 			$kuruluslar = $model->getKuruluslar_Tumu();
-		else
-			$kuruluslar = $model->getKuruluslar_MeslekiYeterlilikYetkili(); // MESLEK STANDARDI HAZIRLAMAYA YETKILILER
+//		else
+//			$kuruluslar = $model->getKuruluslar_MeslekiYeterlilikYetkili(); // MESLEK STANDARDI HAZIRLAMAYA YETKILILER
 		
 		$this->assignRef('kuruluslar', $kuruluslar);
 		
