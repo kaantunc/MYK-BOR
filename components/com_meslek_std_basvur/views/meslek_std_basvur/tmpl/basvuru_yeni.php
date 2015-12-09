@@ -204,7 +204,7 @@ if($basvuru['BASVURU_DURUM_ID'] == "" || $basvuru['BASVURU_DURUM_ID'] == "-1" ||
         });
         jQuery('#tBodyBasKur td>button.OrtakSil').live('click',function(e){
             e.preventDefault();
-            jQuery(this).closeset('tr').remove();
+            jQuery(this).closest('tr').remove();
         });
 			jQuery('form').submit(function(){
 				jQuery('select[name=basvuru_durumu]').removeAttr('disabled');
@@ -373,13 +373,13 @@ if($basvuru['BASVURU_DURUM_ID'] == "" || $basvuru['BASVURU_DURUM_ID'] == "-1" ||
 //	createTable(tableName, new Array ('Faaliyet Alanları'));
 //	addFaaliyetValues (dTables.faaliyet, tableName);
 
-	tableName = "yetkiTalep";
+	/*tableName = "yetkiTalep";
 	createTable(tableName , new Array('Yeterliliğin Adı',
                                 	  
  									  'Başvuru tarihine kadar<br />verilmiş belge sayısı',
 									  'Başvuru tarihine kadar<br />gerçekleştirilmiş sınav sayısı'));
 
-	addYetkiTalepValues (dTables.yetkiTalep, tableName);
+	addYetkiTalepValues (dTables.yetkiTalep, tableName);*/
 }
 
 function addSektorValues (sektor, name){
