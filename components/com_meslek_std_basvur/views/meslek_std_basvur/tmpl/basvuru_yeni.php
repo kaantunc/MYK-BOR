@@ -6,6 +6,14 @@ if(isset($_GET['tur'])){
 $basvuru = $this->basvuru;
 $kurulus = $this->kurulus;
 $faaliyet = $this->faaliyet;
+
+$AllKurulus = $this->AllKurulus;
+$SelKur = '<tr><td><select name="baskur[]" class="input-sm inputW90">';
+$SelKur .= '<option value="0">Seçiniz</option>';
+foreach($AllKurulus as $row){
+    $SelKur .= '<option value="'.$row['USER_ID'].'">'.$row['KURULUS_ADI'].'</option>';
+}
+$SelKur .= '</select></td><td><button class="btn btn-danger btn-xs OrtakSil">Sil</button></td></tr>';
 ?>
 <style>
 #basvuru_ek_dokuman_conatiner table tr td{
@@ -59,6 +67,31 @@ if($basvuru['BASVURU_DURUM_ID'] == "" || $basvuru['BASVURU_DURUM_ID'] == "-1" ||
   </div>
   <div class="cfclear">&nbsp;</div>
 </div>
+    <div class="form_item">
+        <div class="form_element cf_textbox">
+            <label class="cf_label" style="width: 150px;">Başvuran Ortak Kuruluşlar</label>
+        </div>
+        <div class="cfclear">&nbsp;</div>
+    </div>
+    <div class="form_item" style="margin-bottom:10px;">
+        <div class="form_element cf_placeholder">
+            <div id="baskur_div">
+                <table id="tablo_baskur" style="width: 100%;">
+                    <thead class="tablo_header">
+                        <tr>
+                            <th>Ortak Kuruluş</th>
+                            <th>Satırı Sil?</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tBodyBasKur">
+
+                    </tbody>
+                </table>
+                <input id="BasKurEkle" type="button" value="Ortak Kuruluş Ekle">
+            </div>
+        </div>
+        <div class="cfclear">&nbsp;</div>
+    </div>
 <div class="form_item">
   <div class="form_element cf_textbox">
     <label class="cf_label" style="width: 150px;">Başvurulan Sektörler</label>
@@ -164,7 +197,15 @@ if($basvuru['BASVURU_DURUM_ID'] == "" || $basvuru['BASVURU_DURUM_ID'] == "-1" ||
 <script>
 	jQuery("input[type=button]").not("[value='Başvuru Bilgileri'],[value='Ekler']").hide();
 	jQuery(document).ready(function(){
-	
+
+        jQuery('#BasKurEkle').live('click',function(e){
+            e.preventDefault();
+            jQuery('#tBodyBasKur').append('<?php echo $SelKur;?>');
+        });
+        jQuery('#tBodyBasKur button.OrtakSil').live('click',function(e){
+            e.preventDefault();
+            jQuery(this).closeset('tr').remove();
+        });
 			jQuery('form').submit(function(){
 				jQuery('select[name=basvuru_durumu]').removeAttr('disabled');
 			});
@@ -174,6 +215,7 @@ if($basvuru['BASVURU_DURUM_ID'] == "" || $basvuru['BASVURU_DURUM_ID'] == "-1" ||
 					jQuery("#dosya").removeClass("required");
 				}
 			});
+
 		   jQuery("input[name=gonder]").click(function(){
 			   if(confirm("Başvuruyu tamamlamak istediğinizden emin misiniz ? ")){
 				   jQuery.ajax({

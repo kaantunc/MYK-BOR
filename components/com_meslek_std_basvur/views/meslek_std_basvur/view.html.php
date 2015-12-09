@@ -92,7 +92,9 @@ class Meslek_Std_BasvurViewMeslek_Std_Basvur extends JView
 		$pm_faaliyet_sure = FormParametrik::getFaaliyetSuresi ();
 		$pm_sektor		  = FormParametrik::getSektor ();
 		$pm_seviye		  = FormParametrik::getSeviye ();
-		
+        $allKurulus = $model->getAllKurulus(TUM_KURULUS_DURUM_IDS,$user_id);
+        $this->assign('AllKurulus',$allKurulus);
+
 		$this->assignRef('userId', $user_id);
 		$this->assignRef('title'	, $title);
 		$this->assignRef('evrak_id'	, $evrak_id);

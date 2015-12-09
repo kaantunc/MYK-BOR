@@ -71,6 +71,28 @@ class Meslek_Std_BasvurModelMeslek_Std_Basvur extends JModel {
 		$data = $_db->prep_exec($sql,array());
 		return $data;
 	}
-	
+
+    function getAllKurulus($kurulus_durum,$kurulusId){
+        $db = JFactory::getOracleDBO ();
+        $sql = "SELECT DISTINCT M_KURULUS_EDIT.USER_ID AS USER_ID, M_KURULUS_EDIT.KURULUS_ADI AS KURULUS_ADI,
+                M_KURULUS_EDIT.KURULUS_KISA_ADI AS KURULUS_KISA_ADI, M_KURULUS_EDIT.USER_ID AS KURULUS_ID,
+                M_KURULUS_EDIT.KURULUS_EPOSTA AS KURULUS_EPOSTA, M_KURULUS_EDIT
+				FROM M_KURULUS
+				  JOIN M_KURULUS_EDIT ON M_KURULUS.USER_ID = M_KURULUS_EDIT.USER_ID
+				  WHERE M_KURULUS_EDIT.AKTIF = 1 AND M_KURULUS_EDIT.ONAY_BEKLEYEN = 0 AND M_KURULUS.USER_ID != ? AND AND M_KURULUS.KURULUS_DURUM_ID IN(".$kurulus_durum.")
+				UNION
+				SELECT DISTINCT USER_ID, KURULUS_ADI, KURULUS_KISA_ADI, USER_ID AS KURULUS_ID,
+                KURULUS_EPOSTA
+				FROM M_KURULUS
+				  WHERE USER_ID NOT IN (SELECT USER_ID FROM M_KURULUS_EDIT WHERE AKTIF = 1) AND M_KURULUS.USER_ID != ? AND AND M_KURULUS.KURULUS_DURUM_ID IN(".$kurulus_durum.")
+				  ORDER BY KURULUS_ADI ASC";
+        $data = $db->prep_exec($sql, array($kurulusId,$kurulusId));
+
+        if($data){
+            return $data[0];
+        }else{
+            return false;
+        }
+    }
 }
 ?>
