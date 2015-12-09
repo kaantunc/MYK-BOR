@@ -75,8 +75,7 @@ if($basvuru['BASVURU_DURUM_ID'] == "" || $basvuru['BASVURU_DURUM_ID'] == "-1" ||
     </div>
     <div class="form_item" style="margin-bottom:10px;">
         <div class="form_element cf_placeholder">
-            <div id="baskur_div">
-                <table id="tablo_baskur" style="width: 100%;">
+                <table id="tablebaskur" style="width: 100%;">
                     <thead class="tablo_header">
                         <tr>
                             <th>Ortak Kuruluş</th>
@@ -87,7 +86,6 @@ if($basvuru['BASVURU_DURUM_ID'] == "" || $basvuru['BASVURU_DURUM_ID'] == "-1" ||
 
                     </tbody>
                 </table>
-            </div>
             <input id="BasKurEkle" type="button" value="Ortak Kuruluş Ekle">
         </div>
         <div class="cfclear">&nbsp;</div>
