@@ -1,0 +1,16 @@
+# $Id: tr-TR.com_checkin.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+CHECKED-IN=Denetlenen
+CHECKED OUT ITEMS HAVE NOW BEEN ALL CHECKED IN=Tüm öğeler denetlendi.
+CHECKING TABLE=Tablo denetleniyor
+DATABASE TABLE=Veritabanı tablosu
+DESCITEMCHECKEDIN=Tüm öğeler denetlendi.
+GLOBAL CHECK-IN=Genel Denetim
+ITEMS=Öğeler
+NUM OF ITEMS=Öğe #
+TICK=İşaretle

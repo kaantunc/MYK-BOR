@@ -1,0 +1,27 @@
+# $Id: tr-TR.plg_xmlrpc_blogger.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+BLOGGER XML-RPC API=Blogger XML-RPC Uygulaması
+EDIT POSTS=Gönderileri düzenle
+NEW POSTS=Yeni gönderiler
+PARAMCATEGORY=Yeni gönderiler için kategori belirle
+PARAMSECTION=Gönderileri alacak bölümü belirle
+LOGIN FAILED=Giriş başarısız
+POST CHECK FAILED=Gönderi denetimi başarısız
+POST STORE FAILED=Gönderi depolama başarısız
+POST DELETE FAILED=Gönderi silme başarısız
+SORRY, NO SUCH POST=Üzgünüz, gönderi yok.
+SORRY, POST IS ALREADY BEING EDITED=Üzgünüz, gönderi zaten düzenlenmektedir.
+NO POSTS AVAILABLE, OR AN ERROR HAS OCCURRED=Hiç gönderi yok ya da bir hata oluştu.
+METHOD NOT IMPLEMENTED=Yöntem geçersiz
+RETURNS A LIST OF WEBLOGS TO WHICH AN AUTHOR HAS POSTING PRIVILEGES.=Yazarın dönderdiği webloglarının bir listesini döner.
+RETURNS INFORMATION ABOUT AN AUTHOR IN THE SYSTEM.=Sistemdeki yazar hakkında bilgi verir.
+RETURNS INFORMATION ABOUT A SPECIFIC POST.=Gönderi hakkında bilgi verir.
+RETURNS A LIST OF THE MOST RECENT POSTS IN THE SYSTEM.=Sistemdeki en yeni gönderilerin bir listesini döner.
+CREATES A NEW POST, AND OPTIONALLY PUBLISHES IT.=Yeni gönderi oluşturur ve isteğe bağlı olarak yayınlar.
+DELETES A POST.=Gönderi siler.
+UPDATES THE INFORMATION ABOUT AN EXISTING POST.=Mevcut gönderilerin bilgilerini günceller.

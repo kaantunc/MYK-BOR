@@ -1,0 +1,22 @@
+# $Id: tr-TR.com_languages.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+ADMINISTRATOR=Yönetici
+DESCFTP=Dili varsayılan olarak ayarlamak için, Joomla! genellikle FTP hesap bilgilerinize ihtiyaç duyacaktır. Lütfen bilgilerinizi giriniz.
+DESCFTPTITLE=FTP Giriş Ayrıntıları
+IS=:
+JCLIENTHELPER::SETCREDENTIALSFROMREQUEST FAILED=Verilen bilgilerle sunucuya bağlanılamadı.
+LANGUAGE EDITOR=Dil Düzenleyicisi
+LANGUAGE MANAGER=Dil Yöneticisi
+OPERATION FAILED: CONTENT EMPTY.=İşlem başarısız! İçerik boş.
+OPERATION FAILED: COULD NOT OPEN=İşlem başarısız! %s açılamadı
+OPERATION FAILED: NO LANGUAGE SPECIFIED.=İşlem başarısız! Tanımlanmış dil yok.
+OPERATION FAILED: THE FILE IS NOT WRITABLE.=İşlem başarısız! Dosya yazılabilir değil.
+SIZE=Boyut
+WARNOPENFILE=İşlem başarısız! Dosya yazım için açılamadı.
+WRITABLE=Yazılabilir
+YOU CAN NOT DELETE LANGUAGE IN USE.=Kullanımdaki dili silemezsiniz.

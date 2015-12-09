@@ -1,0 +1,18 @@
+# $Id: tr-TR.plg_search_content.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+ALLOWS SEARCHING OF ALL ARTICLES=Tüm makalelerde arama yapılmasını etkineştirir
+ARCHIVED CONTENT=Arşivlenmiş İçerik
+CONTENT ITEMS=Makaleler
+NO=Hayır
+NUMBER OF SEARCH ITEMS TO RETURN=Arama sonucu sayısı
+SEARCH ARCHIVED CONTENT?=Arşivlenmiş Makale Araması?
+SEARCH CONTENT ITEMS?=Makale Araması?
+SEARCH LIMIT=Arama Sınırı
+SEARCH UNCATEGORISED CONTENT?=Kategorize Edilmemiş Makale Araması?
+UNCATEGORISED CONTENT=Kategorize Edilmemiş Makaleler
+YES=Evet

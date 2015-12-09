@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<style type="text/css">
+
+.up_submitbtn    {
+	background-image: url(images/button.gif);
+	border: 1px solid #000033;
+	width: 82px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-position: center;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.up_silbtn    {
+	background-image: url(images/buttonred.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #000033;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-position: center;
+	padding: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 6px;
+}
+
+.up_success{
+	background-image: url(images/ok.gif);
+	background-position: left;
+	padding-left: 25px;
+	padding-top: 4px;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #449944;
+	height: 24px;
+}
+
+.up_error{
+	background-image: url(images/nok.gif);
+	background-position: left;
+	padding-left: 25px;
+	padding-top: 4px;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #994444;
+	height: 24px;
+}
+
+.panel_main_div{
+	background-color: #EEEEEE;
+	margin-top: 20px;
+}
+
+.panel_clear{
+	clear:both;
+}
+
+.panel_heading{
+	font-weight: bold;
+	font-size: x-large;
+	float:left;
+}
+
+.panel_kaldir_button_div{
+	float:left;
+	margin-left: 20px;
+}
+
+<!-- joomla tipi inputlar -->
+
+input, select { font-size: 10px;  border: 1px solid silver; }
+textarea      { font-size: 11px;  border: 1px solid silver; }
+button        { font-size: 10px;  }
+
+input.disabled { background-color: #F0F0F0; }
+
+input.button  { cursor: pointer;   }
+
+input:focus,
+select:focus,
+textarea:focus { background-color: #ffd }
+
+<!-- joomla tipi inputlar end -->
+
+.tablo_header{
+	background-color:#DDDDDD;
+}
+
+.tablo_row{
+	background-color:#F0F0F0;
+}
+
+.tablo_sil_hucre{
+	text-align:center;
+}
+
+</style>
+
+<script type="text/javascript" src="panel.js"></script>
+<script type="text/javascript" src="addrow.js"></script>
+
+<script type="text/javascript">
+
+// panel içindeki tablolarda, tablo name i createTable e parametre olarak eklenmeli
+function createTablo2(id){
+	createTable(id, new Array ('a','b','c','combo'), "tabledene");
+}
+// Text, Text, Başlık, Radio, Combo, dtablo(label, "dtablo", createTableFunction)
+dPanels.mypanel =  new Array("panel heading",
+		new Array("ad", "text"),
+		new Array("soyad", "text"),
+		new Array("2. Örnek başlık", "baslik"),
+		new Array("label", "radio",
+		new Array(new Array("option1id",
+				"option1val"), new Array("option2id", "option2val"))),
+		new Array("label", "combo", new Array(new Array("option1id",
+				"option1val"), new Array("option2id", "option2val"))),
+		new Array("a", "dtablo", createTablo2));
+
+</script>
+
+
+</head>
+
+<body>
+
+<div id="mypanel_div" class="panel_main_div"></div>
+
+<script type="text/javascript">
+
+dTables.tabledene = new Array(
+		new Array("text"),
+		new Array("text"),
+		new Array("radio", new Array(new Array("option1id",
+			"option1val"), new Array("option2id", "option2val"))),
+			new Array("combo", new Array(new Array("option1id",
+			"option1val"), new Array("option2id", "option2val"))));
+
+</script>
+<script type="text/javascript">
+
+// number of panels, panel name
+createNPanels(1,"mypanel");
+
+</script>
+
+</body>
+</html>

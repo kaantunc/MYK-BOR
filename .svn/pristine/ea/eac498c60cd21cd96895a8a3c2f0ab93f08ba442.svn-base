@@ -1,0 +1,14 @@
+# $Id: tr-TR.mod_sections.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+COUNT=Sayım
+DESCSECTIONS=Bölüm modülü veritabanınızda yapılandırılmış tüm bölümlerin bir listesini görüntüler. Bölümler sadece öğe bölümlerine bakar. Eğer yapılandırmada Yetkisiz Bağlantıları Göster ayarlanmış ise, liste kullanıcının görebilmesi için izin verilenler ile sınırlandırılacaktır.
+MOD_SECTIONS=<em>mod_sections</em>
+SECTIONS=Bölümler
+SHOW UNAUTHORIZED LINKS=Yetkilendirilmemiş Bağlantıları Göster
+THE NUMBER OF ITEMS TO DISPLAY (DEFAULT IS 5)=Görüntülenecek öğelerin sayısı (varsayılan 5)
+TIPLINKS=Eğer HAYIR olarak ayarlanmışsa, liste kullanıcıların erişim seviyelerine göre bölümlere sınırlandırılır.

@@ -1,0 +1,41 @@
+# $Id: tr-TR.com_user.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+ALIGNMENT FOR LOGIN IMAGE=Giriş resmi hizası
+ALIGNMENT FOR LOGOUT IMAGE=Çıkış resmi hizası
+IMAGE FOR THE LOGIN PAGE=Giriş sayfası resmi
+IMAGE FOR THE LOGOUT PAGE=Çıkış sayfası resmi
+LOGIN DESCRIPTION=Giriş Açıklaması
+LOGIN DESCRIPTION TEXT=Girişi Açıklaması Metni
+LOGIN IMAGE=Giriş Resmi
+LOGIN IMAGE ALIGN=Giriş Resmi Hizası
+LOGIN JS MESSAGE=Giriş JavaScript Mesajı
+LOGIN PAGE TITLE=Giriş Sayfa Başlığı
+LOGIN REDIRECTION URL=Giriş Yönlendirmesi Bağlantısı
+LOGOUT DESCRIPTION=Çıkış Açıklaması
+LOGOUT DESCRIPTION TEXT=Çıkış Açıklaması Metni
+LOGOUT IMAGE=Çıkış Resmi
+LOGOUT IMAGE ALIGN=Çıkış Resmi Hizası
+LOGOUT JS MESSAGE=Çıkış JavaScript Mesajı
+LOGOUT PAGE TITLE=Çıkış Sayfası Başlığı
+LOGOUT REDIRECTION URL=Çıkış Yönlendirmesi Bağlantısı
+PARAMETERS FOR LOGIN COMPONENT=Giriş Bileşeni Özellikleri
+PARAMLOGINDESCTEXT=Giriş sayfasında gösterilecek metin. Boş bırakılırsa _LOGIN_DESCRIPTION kullanılacaktır.
+PARAMLOGINJSMESSAGE=Girişinin başarılı olduğuna ilişkin JavaScript mesajını göster/gizle
+PARAMLOGINURL=Giriş başarılı olduğunda, kullanıcının yönlendirileceği sayfa. Boş bırakılırsa, ön sayfaya yönlendirilecektir.
+PARAMLOGOUTDESCTEXT=Çıkış sayfasında gösterilecek metin. Boş bırakılırsa _LOGOUT_DESCRIPTION kullanılacaktır
+PARAMLOGOUTJSMESSAGE=Çıkışın başarılı olduğuna ilişkin JavaScript mesajını göster/gizle
+PARAMLOGOUTPAGETITLE=Sayfanın üstünde gösterilecek metin. Boş bırakılırsa, menü ismi gösterilecektir.
+PARAMLOGOUTURL=Çıkış başarılı olduğunda, kullanıcının yönlendirileceği sayfa. Boş bırakılırsa, ön sayfaya yönlendirilecektir.
+PARAMWELCOMEDESC=Bu sayfada görüntülenecek metni giriniz. Eğer boş bırakırsanız, dil dosyanızda yer alan WELCOME_DESC metni kullanılacaktır.
+SHOW LOGIN PAGE TITLE=Giriş Sayfası Başlığını Göster
+SHOW LOGOUT PAGE TITLE=Çıkış Sayfası Başlığını Göster
+SHOW/HIDE THE LOGIN PAGE TITLE=Giriş Sayfası Başlığını Göster/Gizle
+SHOW/HIDE THE LOGOUT PAGE TITLE=Çıkış Sayfası Başlığını Göster/Gizle
+SHOW/HIDE THE LOGIN DESCRIPTION BELOW=Giriş Açıklaması Metnini Göster/Gizle
+SHOW/HIDE THE LOGOUT DESCRIPTION BELOW=Çıkış Açıklaması Metnini Göster/Gizle
+WELCOME DESCRIPTION=Hoşgeldin Açıklaması

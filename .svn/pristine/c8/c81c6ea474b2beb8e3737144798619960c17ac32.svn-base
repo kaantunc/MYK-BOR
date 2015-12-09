@@ -1,0 +1,15 @@
+# $Id: en-GB.plg_search_jfcontacts.ini 1005 2008-06-14 22:44:28 iapostolov
+# Joom!Fish project
+# Copyright (C) 2003 - 2008 Think Network GmbH, Munich. All rights reserved.
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+# -----------------------------------------------------------------------------
+#
+# @package joomfish.language TR
+# $Id: tr-TR.plg_search_jfcontacts.ini 2.01.RC1 2008-09-11 rahmiarik $
+# author Rahmi ARIK-joomlatr.org
+ALLOWS SEARCHING OF TRANSLATION OF CONTACTS COMPONENT=İletişim bileşeni çevirilerini aramayı sağlar
+SEARCH LIMIT=Arama limiti
+ACTIVE LANGUAGE ONLY=Sadece aktif dilde 
+NUMBER OF SEARCH ITEMS TO RETURN=Görüntülenecek öğe sayısı
+SEARCH ONLY WITHIN ACTIVE LANGUAGE?=Sadece aktif dilde ara?

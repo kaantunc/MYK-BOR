@@ -1,0 +1,204 @@
+#### Başlıklar
+BOOKMARK=Yer İmi
+BOOKMARKS=Yer İmleri
+CREATE_BOOKMARK=Yer İmi Bağlantıları Oluştur
+CREATE_RELATED=İlişkili Bağlantı Oluştur
+DOCUMENTATION=Dökümantasyon
+EXPAND=Hepsini Genişlet
+FAQ=Sıkça Sorulan Sorular
+FAQs=Sıkça Sorulan Sorular
+IN_EX=İçeri Aktar / Dışarı Aktar
+LINK=Bağla
+LINK_ARTICLE=Makaleleri Bağla
+LINK_CONTACT=Bağlantıları Bağla
+LINK_FILE=Dosyaları Bağla
+LINK_MENU=Menü Öğelerini Bağla
+LL_INSTRUCTIONS=Yukarıdaki bağlantıları kullanarak içerikleri bağla
+MENU=Menü
+MENU_ITEMS=Menü Öğeleri
+RELATED_ARTICLES=İlişkili Makaleler
+SECTIONS=Bölümler
+
+#### Dökümantasyon
+
+# Bookmarking
+ANCHOR_DESC_TEXT=%s, inserts the bookmark text
+ANCHOR_DESC_TITLE=%s, inserts the article title
+ANCHOR_DESC_DESC=%s, inserts a summary of the article (intro text)
+ANCHOR_DESC_URL=%s, inserts the article URL
+DOCS_BOOKMARKING_CONFIG_TEXT_1=Each bookmark can be displayed in up to 5 different formats: text, small badge, large badge, button or custom.
+DOCS_BOOKMARKING_CONFIG_TEXT_2=To edit the HTML code for a bookmark, go to &quot;Administrator &#187; Components &#187; Linkr &#187; Bookmarks&quot;, and select the desired bookmark, or create a new one. For the HTML code to be functional, you might need to place some anchors (see below).
+HTML_ANCHORS=HTML anchors
+LIST_ANCHORS=List of existing anchors
+SIZE_EXAMPLES=Size examples
+
+# Related articles
+RELATED_CONFIG_TEXT=To change the amount of links shown, change the &quot;limit&quot; value. If related links are added automatically to your articles, then for each article Linkr will look for keywords in the metadata.
+
+# FAQ
+FAQ_1=How do I use Linkr?
+FAQ_1_ANSWER=Linkr is a content plugin. To use it, go to &quot;Administrator &#187; Content &#187; Article Manager&quot; and select any article. If the plugin is properly installed, you should find a &quot;Linkr&quot; button at the bottom of the page.
+FAQ_2=Can Linkr create menu links?
+FAQ_2_ANSWER=No. Linkr is a tool for adding links to your articles and for improving %s for your site. If you want to create a new menu link, you need to use the Menu Manager.
+FAQ_3=I can't find the Linkr button!
+FAQ_3_ANSWER=You need to download the plugin from %s and install it. Once you've downloaded it, go to &quot;Administrator &#187; Extensions &#187; Install/Uninstall&quot; and install the plugin. Make sure to activate it in &quot;Administrator &#187; Extensions &#187; Plugin Manager &#187; Editor Button - Linkr&quot;. 
+FAQ_4=How come related links do not show for all of my articles?
+FAQ_4_ANSWER=To display related article links on all of your articles, go to &quot;Administrator &#187; Plugin Manager &#187; Content - Linkr&quot; and set &quot;Default related links&quot; to &quot;yes&quot;.
+FAQ_5=How do I add keywords for related links?
+FAQ_5_ANSWER=When related links are added automatically, Linkr will use the keywords in the article's metadata. You can edit the article's metadata keywords by going to &quot;Administrator &#187; Content &#187; Article Manager&quot; and selecting the desired article.
+FAQ_6=How do I keep bookmarks or related article links from showing automatically on specific articles?
+FAQ_6_ANSWER=To keep Linkr from automatically adding stuff to an article, add &quot;{linkr:none}&quot; (without the quotes) at the end of that article.
+FAQ_7=I get a &quot;Unsuported Media Type&quot; message when I try to upload a file.
+FAQ_7_ANSWER=To control what kind of files can be uploaded, see the settings in &quot;Administrator &#187; Site &#187; Global Configuration &#187; System &#187; Media Settings&quot;.
+FAQ_8=What is the &quot;article slug&quot;
+FAQ_8_ANSWER=It's a combination of the article ID and alias. You can choose to use it or not by changing the settings in &quot;Administrator &#187; Plugin Manager &#187; Content - Linkr &#187; Advanced Parameters&quot;. When SEF is turned off, article URLs using the slug will look something like &quot;index.php?option=com_content&amp;id=1:welcome-to-joomla&amp;catid=1:latest-news&quot;. On the other hand, when SEF is turned ON, article URLs which DO NOT use the slug might look something like &quot;index.php/more-about-joomla/1/9.html&quot;.
+FAQ_9=How do I install a patch?
+FAQ_9_ANSWER=Installing a patch is as easy as using the Joomla! installer to override the current files. Patches have version numbers and letters. Letters increase from A to Z, so a patch labeled &quot;E&quot; is more recent then a patch labeled &quot;B&quot;. Patches are good for the versions they indicate. So, a patch &quot;com.linkr.patch-231c&quot; is good for Linkr 2.3.1 as well as for a patched version &quot;Linkr 2.3.1b&quot;, but not for an older version &quot;Linkr 2.3.0&quot;.
+
+# General / miscellaneous
+CUSTOMIZING=Customizing
+EXAMPLE=örnek
+HTML_EXAMPLE=HTML örneği
+MORE_OPTIONS_IN_PLUGIN=You can find more options in &quot;Administrator &#187; Extensions &#187; Plugin Manager &#187; Content - Linkr&quot;.
+
+#### Bookmarks
+ANCHOR_NOTICE=For the article titles, summaries and URLs, use the [title], [desc] and [url] anchors in the HTML code.
+BOOKMARK_DETAILS=Bookmark Details
+DEFAULT_SIZE=Default size
+ICON_O=Icon (optional)
+HTML_CODE=HTML kodu
+MAKE_POPULAR=Make Popular
+NOTICE_DEL_ERROR=One or more bookmarks could not be deleted.
+NOTICE_DELETED=Bookmark deleted.
+NOTICE_MISSING_HTML=The HTML code for the default size you selected is missing.
+NOTICE_MISSING_NAME=The name for your bookmark is missing.
+NOTICE_SAVED=Kaydedildi!
+POPULAR=Popüler
+
+#### CSS
+CSS_INSTRUCTIONS=Edit the default CSS styles for bookmarks and related articles
+NOTICE_OVERWRITE=Overwrite current settings with default?
+RESTORE_DEFAULT=Restore default
+
+#### Import & Export
+COPY_PASTE=Kopyala &amp; Yapıştır
+EXPORT=Dışa Aktar
+IMPORT=İçeri Aktar
+IN_EX_INSTRUCTIONS=Either upload a Linkr Bookmarks file (CSV format) or copy and paste some source code to import bookmarks from a previous Linkr installation. Only the bookmarks you don't have will be added to your database. To export your current bookmarks, go to the end of the page and click on &quot;Export&quot;.
+INVALID_CSV=Please provide a valid Linkr Bookmarks file (CSV format).
+NO_BMS=Yeni Yer İmi Yok!
+UPLOAD=Dosya Gönder
+X_BMS=%s Yeni Yer İmi!
+
+#### Media Manager
+DELETE_ONCLICK=Delete on mouse click?
+
+#### Lightbox
+
+# Searching
+BTN_SEARCH=ara
+BTN_OPTIONS=ayarlar
+CREATED=Oluşturuldu
+MODIFIED=Değiştirildi
+ORDERING=Sıralama
+SEARCH_IN=Search in:
+SORT_BY=Sort by:
+TEXT=Metin
+TITLE=Başlık
+
+# Adding bookmarks
+BM_POST_TXT=Sonraki metin
+BM_PRE_TXT=Önceki metin
+BM_CONFIG_SELALL=tüm yer imlerini seç
+BM_CONFIG_SELPOP=en popülerleri seç
+BM_CONFIG_SEP=Ayırıcı
+BM_CONFIG_SIZE=Arma boyutu
+BM_CONFIG_TITLE=Yer imlerini ayarla
+BM_CONFIG_TXT=Ad ekle
+CLEAR=temizle
+SIZE_TEXT=Düz metin
+SIZE_SMALL=Küçük arma
+SIZE_SMALL_M=Küçük arma (16 x 16)
+SIZE_LARGE=Büyük arma
+SIZE_LARGE_M=Büyük arma (32 x 32)
+SIZE_BTN=Düğme
+SIZE_BTN_M=Düğme (90 x 20)
+SIZE_CSTM=Özel
+TEXT_LEFT=Evet, sola
+TEXT_RIGHT=Evet, sağa
+
+# Linking a contact
+EMAIL=E-Posta
+NO_CONTACTS=görüntülenecek kontakt yok
+SELECT_CONTACT=Kontakt seçin
+
+# Adding related links
+RL_CONFIG_LIMIT=Limit
+RL_CONFIG_SHOW_ALL=Tüm makaleleri göster
+RL_CONFIG_TITLE=İlişkili makaleleri ayarla
+RL_CONFIG_UPDATE=Önizlemeyi güncelle
+NO_PREVIEW=önizleme yok
+TYPE_IN_KEYWORDS=Bazı kelimeler girin
+NOTICE_RELATED_RANDOM=İlişkili bağlantılar bu makalelerden seçilecek (uyumlu ek parametrelerinden sıralama ayarlarına bakın). Makaleleri çıkarmak için, işaretleyin.
+
+# Link Configuration
+CONFIGURE_LINK=Bağlantıyı Düzenle
+GET_BMS=Yer İmlerini Al
+GET_LINK=Bağlantıyı Al
+GET_LINKS=Bağlantıları Al
+GET_REL=İlişkili Bağlantıları Al
+LC_ANCHOR=Anchor
+LC_ATTRIBUTES=Bağlantı nitelikleri
+LC_CLASS=Sınıf
+LC_EMAIL_SUBJECT=E-Posta Konusu
+LC_FORMAT=Biçin
+LC_IMG_SIZE=Boyut (g X u)
+LC_ML=Menü Bağlantısı
+LC_PAGEBREAK=Sayfa Sonu
+LC_RELATION=Rel
+LC_TARGET=Sayfa hedefi
+LC_TARGET_BLANK=boş sayfa
+LC_TARGET_SELF=aynı sayfa
+LC_TEXT=Metin
+LC_TITLE=Başlık / Bilgi
+NO_ITEMID=itemid yok
+
+# Linking a file
+ADD_TYPE_ICON=Simge ekle
+DIRECTORY=Dizin
+GET_IMAGE_LINK=Resimden bağlantı al
+MIDDLE=Orta
+
+# JavaScript
+IMG_ANCHOR=[resim]
+MISSING_TEXT=Bağlantının metni nedir?
+SEARCH_TYPE_RESULTS=Arama Sonuçları (%s) - Toplam: %s
+
+# Notices and messages
+NOTICE_BOOKMARKS=Varsayılan olarak yer imleri bu makaleye eklenecek
+NOTICE_INSTALL=Öncelikle uyumlu eki kurup aktif etmeniz gerekir!
+NOTICE_LINKR_VERSION=Bu uyumlu eki kullanmak için Linkr %s veya sonrasına ihtiyacınız var!
+NOTICE_PLUGIN_INSTALL=%s yüklenmemiş veya deaktif edilmiş...
+NOTICE_RELATED=Varsayılan olarak bağlantılar bu makaleye eklenecek
+
+# General / Miscellaneous
+INVALID_ID=Geçersiz ID
+LIST_EMPTY=boş! başka bir şey seçin
+NORESULTS=sonuç bulunamadı
+PICK=seç
+TYPEMIN=En az %d karakter girin
+UNCATEGORIZED=kategorilendirilmemiş
+
+#### Parameters
+PARAM_DEBUG=Debug
+PARAM_DEBUG_DESC=Log everything Linkr does in the background (in logs/linkr.php).
+PARAM_FOLDERS=Folders
+PARAM_FOLDERS_DESC=Root folders to show when linking a file (separated by a comma).
+PARAM_FUPLOAD=Frontend Uploads
+PARAM_FUPLOAD_DESC=Allow file uploads from the frontend.
+PARAM_SIMPLE=Simple file list
+PARAM_SIMPLE_DESC=Select Yes to only display filenames when linking to files.
+
+#### General
+NOTICE_CANCELLED=Değişiklik Yapılmadı
+LINKR_CREATED_BY= 

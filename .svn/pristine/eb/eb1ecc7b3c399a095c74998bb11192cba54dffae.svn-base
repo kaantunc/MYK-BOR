@@ -1,0 +1,26 @@
+# $Id: en-GB.mod_jflanguageselection.ini 1165 2008-08-26 23:20:36Z apostolov $
+# Joom!Fish Project
+# Copyright (C) 2003 - 2008 Think Network GmbH, Munich. All rights reserved.
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+# -----------------------------------------------------------------------------
+#
+# @package joomfish.language
+# $Id: tr-TR.mod_jflanguageselection.ini 2.01.RC1 2008-09-11 rahmiarik $
+# author Rahmi ARIK-joomlatr.org
+#
+DESCMODULLANGUAGESELECTION=Bu Modül web sitenize dil seçimini kutusu ilave eder.
+APPEARANCE OF LANGUAGE SELECTOR=Dil seçici görünümü 
+SHOW ACTIVE LANGUAGE=Aktif olan dil gösterilsin mi ?
+SELECT WETHER THE ACTIVE LANGUAGE SHOULD BE SHOWN OR NOT=Aktif olan dil görülüp görülmeyeceğini seç ?
+INCLUDE JOOM!FISH CSS=Joom!Fish CSS ekle 
+TELLS THE MODULE IF THE MODULE JOOM!FISH CSS SHOULD BE INCLUDED OR NOT.=Modüle Joom!Fish CSS in eklenip eklenmeyeceğini söyle.
+CACHE HREF TRANSLATION=Href çevirileri gösterme
+SELECT WHETHER TO CACHE THE RESULT OF THE ROUTING OF THE TRANSLATED URL=Çevirilen URL yönlendirmesi sonucunun gizlenip gizlenmeyeceğini seç.
+A SUFFIX TO BE APPLIED TO THE CSS CLASS OF THE MODULE (TABLE.MODULETABLE), THIS ALLOWS INDIVIDUAL MODULE STYLING=Modülün((table.moduletable) Clas CSS ine sonek eklenir, Bu modül stillendirilmelerinin tektek yönetilmesini sağlar.
+DROP DOWN OF NAMES=İsimlerle açılabilir menü
+DROP DOWN OF NAMES WITH CURRENT LANGUAGE FLAG=İsimlerle Aktif olan dilde etiket görünümlü açılabilir menü 
+UL-LIST OF NAMES=ul-İsimli liste
+UL-LIST OF NAMES WITH FLAG=ul-İsimlerle etiketli liste
+UL-LIST OF IMAGES=ul-Resimli liste
+RAW DISPLAY OF IMAGES=Resimlerin brüt görünümü 

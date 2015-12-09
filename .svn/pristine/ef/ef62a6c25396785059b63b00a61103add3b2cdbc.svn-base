@@ -1,0 +1,21 @@
+# $Id: tr-TR.mod_random_image.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+DESCRANDOMIMAGE=Bu modül seçilmiş klasörden rastgele bir resim görüntüler
+HEIGHT (PX)=Yükseklik (piksel)
+IMAGE FOLDER=Resim Klasörü
+IMAGE TYPE=Resim Çeşidi
+LINK=Bağlantı
+MOD_RANDOM_IMAGE=<em>mod_random_image</em>
+NO IMAGES=Hiç resim yok
+PARAMHEIGHTPX=Resim yüksekliği tüm resimlerin yüksekliğinin piksel olarak göstermeye zorlar.
+PARAMIMAGEFOLDER=Göreceli site adresinin resim klasörü yolu, örn: images/stories
+PARAMLINK=Bir resmin üzerine tıklatıldığında yönlendirme yapılacak alan adı, örneğin, http://www.joomla.org
+PARAMWIDTHPX=Resim genişliği tüm resimlerin genişliğinin piksel olarak göstermeye zorlar.
+RANDOM IMAGE=Rastgele resim
+TYPE OF IMAGE PNG/GIF/JPG ETC. (DEFAULT IS JPG)=Resim çeşidi PNG/GIF/JPG vb. (JPG varsayılandır)
+WIDTH (PX)=Genişlik (piksel)

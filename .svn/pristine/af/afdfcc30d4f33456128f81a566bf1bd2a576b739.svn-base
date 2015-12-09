@@ -1,0 +1,5 @@
+ADMINISTRATION_LOGIN=Administration Login
+ENTER_KEY_VALUE=Enter Key Value
+BODY_MESSAGE:=Currently Some User has try to access the administrator from following IP:
+USING KEY:=Using Key:
+BODY_MESSAGE_FOR_MODIFIED_FIELDNAME=Following Details has been modified using IP:

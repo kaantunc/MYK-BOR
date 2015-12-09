@@ -1,0 +1,412 @@
+# $Id: en-GB.com_joomfish.ini 1165 2008-12-23 14:35:04 apostolov ~0 $
+# author Joom!Fish Project
+# copyright (C) 2003 - 2009 Think Network GmbH, Munich. All rights reserved.
+# license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+
+# Note : All ini files need to be saved as UTF-8
+# author Turkish translation-Rahmi ARIK-joomlatr.org-2008-12-28
+# General tags and terms used
+TITLE_TRANSLATION=Çeviri
+
+
+JOOM!FISH=Çoklu Dil Yöneticisi
+JOOMFISH_TITLE=Çoklu Dil Yöneticisi
+# JOOMFISH_HEADER=Joomla! İçin Çok Dilli İçerik Yöneticisi
+JOOMFISH_HEADER=
+
+# Primary used in submenu and toolbar
+CONTROL PANEL=Kontrol Paneli
+TRANSLATION=Çeviri
+ORPHANS=Orijinali Olmayanlar
+MANAGE TRANSLATIONS=Çevirileri Yönet
+STATISTICS=İstatistikler
+LANGUAGE CONFIGURATION=Dil Yapılandırması
+CONTENT ELEMENTS=İçerik öğeleri
+HELP AND HOWTO=Yardım & Yönerge
+
+# Used in various dialogs
+TITLE_NAME=İsim
+TITLE_AUTHOR=Yazar
+
+# Control Panel Dialog
+MANAGE PLUGINS=Uyumlu ekleri yönet
+
+# Welcome information module
+INFORMATION=Joom!Fish'e Hoşgeldiniz
+INFORMATION_TEXT=Joomla için çok dilli matür eklentinin en son sürümünü kullanıyorsunuz!. Sitenizi geliştirmek ve Joomlanın yeni özelliklerini en iyi şekilde kullanmak için birçok yeni seçenekler entegre edilmiştir. 
+INFORMATION_CLUB_TITLE=<h4>Joom!Fish Kulübü</h4>
+INFORMATION_CLUB_LINK=http://www.joomfish.net/en/the-club
+INFORMATION_CLUB=Eğer çok dilli siteniz için profesyonel destek ve gelişmiş çözüme ihtiyacınız varsa, <a href="http://www.joomfish.net/en/the-club" target="_blank">Joom!Fish Kulubü</a> sizin için öngörülmüştür. Küçük bir ücretle, kulüb üyeligi size bütün avantajlara ulaşabilmenizi garanti eder. <b>Bu eklenti şimdiye kadar size %s çeviri için yardımcı olmuştur. Bu da %s EURO luk bir miktar tutar.(her çeviri için  0,10 EUR bazında hesaplanarak), üye olmaya değer değil mi ?</b>
+INFORMATION_SERVICE_TITLE=<h4>Joom!Fish Hizmetleri</h4>
+INFORMATION_SERVICE=Bu proje size dokümantasyon, bir forum topluluğu gibi ve web sitemizde <a href="http://www.joomfish.net" target="_blank">www.joomfish.net</a> daha bir çok  bedave değişik hizmetler sunar. Inceleyin ve çok dilli web siteleri ile ilgili her gün biraz daha büyüyen uluslararası topluluklardan birisine sizde katılın.
+
+# News information module
+NEWS=Haberler
+NEWS_INTRODUCTION=Joom!fish projesiyle ilgili en son haberleri görüntülemektesiniz. Eğer bu modul ile herhangi bir sorun ile karşılaşırsanız Bileşenin özellikleri bölümünden onu etkisiz hale getirebilirsiniz.
+
+# Unpublished information module
+UNPUBLISHED CONTENT ELEMENTS=Yayınlanmamış İçerik Öğeleri
+
+# State information module
+SYSTEM STATE=Alan
+DIRECTORY STATE=Dizin Alanı 
+EXTENSION STATE=Eklenti Alanı
+WRITABLE=<span style="font-weight:bold; color:green">Yazılabilir</span>
+NOT WRITABLE=<span style="font-weight:bold; color:red">Yazılamaz</span>
+PUBLISHED=<span style="font-weight:bold; color:green">Yayınlanmış</span>
+UNPUBLISHED=<span style="font-weight:bold; color:red">Yayınlanmamış</span>
+NOT INSTALLED=<span style="font-weight:bold; color:red">kurulu değil!</span>
+ORDERING=<span style="font-weight:bold; color:green">Sıralama doğru</span>
+UNORDERING=<span style="font-weight:bold; color:red">Sıralama doğru değil</span>
+JFALTERNATIVE=jfalternative
+JFCATEGORIES=jfcategories
+JFCONTACTS=jfcontacts
+JFCONTENT=jfcontent
+JFDATABASE=jfdatabase
+JFNEWSFEEDS=jfnewsfeeds
+JFROUTER=jfrouter
+JFSECTIONS=jfsections
+JFWEBLINKS=jfweblinks
+
+# Parameters configuration
+PREF_TITLE=Çoklu Dil Yöneticisi Bileşen Tercihleri
+ACCESS PREFERENCES= Ulaşım Tercihleri
+FRONTEND PUBLISH=Önyüzden yayınla?
+PUBLISHERS=Yayınlayıcılar ve daha üstü
+NOONE=Hiçbiri
+FEPUBLISH_HELP=Önyüzden çeviri yayınlama yetkisi kimde olsun?
+INACTIVE LANGUAGE PREVIEW PREFERENCE=Pasif Dilde İzleme Tercihleri
+ENABLE INACTIVE LANGUAGES FOR MANAGERS AND ABOVE=Yöneticiler ve daha üstü için pasif diller etkin
+PREVIEW_HELP=Bu ayarda evet derseniz yönetici ve üst seviyedeki guruplar, etkin olmayan dillerde site izlemesi yapabilir.
+MD5 KEY ONLY=Sadece MD5 anahtarı
+MD5 KEY AND CLEAR TEXT=MD5 anahtarı ve düz metin
+MNGORIGINAL_HELP=md5 anahtarı çevirinin yapıldığı orijinal içerik ile karşılaştırma için kullanılır. Bu içeriği düz metinde saklamak veritabanını fazladan büyütür ancak değişiklikler için daha iyi veri dönüşü sağlar.
+SHOWIF=Ne gösterilecek ...
+NOTRANSLATION=uygun çeviri yoksa?
+NOTRANSLATION_HELP=Bu, sadece reference.type=content! şeklinde işaretlenmiş olan içerik öğeleri için kullanılacak
+ORIGINAL CONTENT=Orijinal içerik
+ORIGINAL WITH INFO=Orijinal içerik ve bilgilendirmesi
+PLACEHOLDER=Varsayılan Metin
+OVERWRITE GLOBAL CONFIG VALUES=Genel yapılandırma değerlerini yeniden yaz
+OVERWRITE_GLOBAL_CONFIG_HELP=Genel yapılandırma değerlerini yeniden yaz
+CPANEL_NEWS_HELP= Çoklu Dil Yöneticisi  haberler modulünü Kontrol Panelinde göster
+CPANEL_UNPUBLISHED_HELP=Yayınlanmamış modülü Kontrol Panelinde göster
+CPANEL_STATE_HELP=Alan modülünü Kontrol Panelinde göster
+COPY ORIGINAL PARAMS TO EMPTY TRANSLATION=Orijinal parametreleri çeviri olmayanlara kopyala
+COPYPARAMS_HELP=Orijinal parametreleri çeviri olmayanlara kopyala
+ENABLE TRANSLATION CACHING=Çeviri önbellek etkin
+TRANS_CACHING_HELP=Çeviri önbellek etkinleştirir
+CACHE LIFE IN MINUTES=Ön bellek zamanı (Dakika)
+TRANS_CACHELIFE_HELP=Ön bellek zamanı (Dakika)
+ENABLE QUERY ANALYSIS CACHING=Sorgu çözümler önbellekleme etkin
+
+
+# Language Manager dialog
+COMPONENT ADMIN INTERFACE LANGUAGE=Bileşen Yönetim Arayüzü Dili
+TITLE_ACTIVE=Aktif
+TITLE_ISOCODE=ISO Kodu
+TITLE_SHORTCODE=Kısa Kodu
+TITLE_JOOMLA=Dosya adı
+TITLE_IMAGE=Resim dosya adı
+TITLE_ORDER=Sıralama
+TITLE_CONFIG=Yapılandırma
+TITLE_FALLBACK=Öntanım
+LANGUAGES SAVED=Dil ayarlarınız kaydedildi
+ERROR SAVING LANGUAGES=Dil kaydedilirken bir hata oluştu.
+
+# Language Manager - Translate System Configuration dialog
+TRANSLATE CONFIGURATION=Çeviri Ayarlari
+FIELD=Alan
+JOOMFISH CONFIGURATION=Joomfish Yapılandırma
+
+
+# Translation dialog
+TRANSLATION SUCCESSFULLY DELETED=Çeviri sil başarılı
+
+# -------------------------------------
+CONTENT ELEMENT INSTALLER=İçerik Öğesi Yükleyici
+
+ARE YOU SURE YOU WANT TO DELETE THE SELCTED ITEMS?=Bu seçilen makaleleri silmek istediğinizden eminmisiniz?
+CLOAKING=CLOAKING
+
+
+STATISTICS_INFO=İstatistikler hakkında bilgi 
+ADDITIONAL SITES=Diğer Siteler
+BUG AND FEATURE TRACKER=Hata ve Özellik takibi
+CHANGELOG=Changelog
+DOCUMENTATION AND TUTORIALS=Dokümantasyon ve Dersler 
+INSTALLATION NOTES=Kurulum notları 
+OFFICIAL PROJECT FORUM=Resmi Projet Forum 
+OFFICIAL PROJECT WEBSITE=Resmi Projet Web Sitesi
+ONLINE DOCUMENTATION AND TUTORIALS=Online Dokümantasyon ve Dersler 
+RELATED TOPICS=İlgili Konular
+
+# RC1 release - 27 August 2008
+# new from 2.0
+JOOMFISH_COMMUNITY=Bütün JoomFish! Topluluğuna! 
+CREDITS=Emeği geçenler
+TITLE_STATISTICS=İstatistikler
+STATISTICS INFO=İstatistikler hakkında
+STATISTICS_INTRO=İstatistik seçeneği size çeviriler hakkındaki bilgilerin görülmesini sağlar. Bu istatistikler ile, mesala hangi çevirilerin güncel olmadığı veya hangi dillerde çevirisi yapıldığı görülebilir.
+CONTENT_ELEMENT_INSTALLER=İçerik Öğeleri Kurucusu 
+ARE YOU SURE YOU WANT TO DELETE THIS CE FILE=Bu içerik öğesi dosyasını SİLMEK istediğinizden eminmisiniz?
+ARE YOU SURE YOU WANT TO DELETE THIS TRANSLATION=Bu çevirileri SİLMEK istediğinizden eminmisiniz?
+DETAIL=Ayrıntılar
+
+# new from 1.8.1
+ADVANCED USERS ONLY - EXPERIMENTAL QUERY ANALYSIS CACHING=Sadece deneyimli kullanıcılar için - Deneysel sorgu çözümler önbellekleme 
+ENABLE EXPERIMENTAL QUERY ANALYSIS CACHING=Deneysel sorgu çözümler önbellekleme etkin
+ENABLE QUERY ANALYSIS LOGGING=Sorgu çözümler log etkin
+QA_CACHING_HELP=Bu işleyicinizde SQL sorgu çözümleri için ağır bir önbellek rutini kullanır. İşlevsellik deneysel düzeyde olup  sadece buna alışkın deneyimliler tarafından kullanılmalıdır.
+QA_LOGGING_HELP=Sorgu çözümler önbellekleme doğruluk ve etkililiğini değerlendirmeye yardım eder – Bu seçim   inceleme sorguları ve  sonuçları  log dosyası oluşturur. Bu tür dosyalar çok çabuk büyüdükleri için, bunu sadece  geliştiriciler sizden log verileri istediginde kısıtlı bir zaman için « Evet » konumuna getiriniz. 
+
+## new from 1.8
+INSTALL=Kurulum
+VIEW=Göster
+CONTENT_STATE=İçerik
+SYSTEM_STATE=Sistem
+CONTENT=İçerik
+ORIGINAL TOTAL=orijinal toplam
+TRANSLATION TOTAL=# çeviriler
+UNVALID=geçerli değil
+VALID=geçerli
+MISSING=eksik
+NO UNPUBLISHED TRANSLATIONS FOUND=Yayınlanmamış çeviri bulunamadı
+TABLE_DOES_NOT_EXIST= %s tablosu yok
+
+CLEANUP ORPHANS=Orijinali Olmayanları Temizle
+ORPHANS TRANSLATIONS=Orijinali Olmayan Çeviriler
+ORPHAN_INTRO=<h3>Aşağıdaki içerikler orijinali olmayan çevirileri içerir.</h3><p>Detaylara dönmek için tıklayın</p>
+
+UPLOAD XML FILE=XML dosyası ya da arşiv yükle
+FILE NAME=Dosya adı
+FILEUPLOAD SUCCESSFUL=Dosya yüklemesi başarılı.
+FILEUPLOAD NOT SUCCESSFUL=Dosya yüklemesı BAŞARISIZ
+ELEMENTFILE DELETED=Öğe dosyası "%s" başarıyla silindi
+UPLOAD FILE AND INSTALL=Dosya Yükle &amp; Kur
+
+CONTENT_ELEMENT_MISSING=%s tablosu için içerik öğeleri yok
+OVERWRITE_GLOBAL_CONFIG_DISABLED=Bu sitede genel yapılandırma değerlerini yeniden yazmaya izin verilmemiş. Jfdatabase mambo sunda bu yapılandırma değerini site önyüzü için yazılabilir yapın
+
+# Config Translation
+TRANSLATE_SITENAME=Site Adı
+TRANSLATE_MAILFROM=e-Posta kimden
+TRANSLATE_FROMNAME=Gönderen Adı
+TRANSLATE_LOCALE=Ülke
+TRANSLATE_METADESC=Genel Site Meta Açıklaması
+TRANSLATE_METAKEYS=Genel Site Meta Anahtar Kelimeleri
+TRANSLATE_OFFLINE_MESSAGE=Site Kapalı Notu
+TRANSLATE_ERROR_MESSAGE=Sistem Hatası Notu
+TRANSLATE_FAVICON=Site Favicon Simgesi
+TRANSLATE_HELPURL=Yardım Sunucusu
+TRANSLATE_LIVE_SITE=Anasayfa
+
+# filters
+ID=ID Filitre
+SECTION FILTER=Bölüm Filtrele
+ALL SECTIONS=Tüm Bölümler
+FRONTPAGE FILTER=Anasayfa
+FRONTEND=Önyüz
+ARCHIVE FILTER=Arşiv
+FILTER ANY=Hiç
+FILTER BOTH=Hepsi
+FILTER MISSING=Eksik
+FILTER AVAILABLE=Geçerli
+NO TRANSLATION AVAILABLE=Geçerli çeviri yok
+FRONTPAGE_NO_TRANSLATION_AVAILABLE=Çeviri yok
+NO TRANSLATION ALTERNATIVE=Burada çeviri yok, lütfen başka bir dil seçin
+NO TRANSLATIONS AT ALL=Bu içerik tercüme edilmedi
+
+JS_CHANGE_TRANSLATION_LANGUAGE=Bu çeviri veritabanınıza "+fromLang+" olarak kaydedildi.<br /><br />Çeviriyi değiştirip "+toLang+" olarak kaydederseniz "+fromLang+" çeviriniz "+toLang+" şeklinde değişecektir.<br /><br />Devam etmek ve varolan çeviri dilini değiştirmek istiyor musunuz ?
+JS_REINSTATE_TRANSLATION_LANGUAGE=Bu çevirinin dilini %s yenilediniz
+
+ORIGINAL WITH ALT=Orijinal içerik çeviriler için de uygun
+UNPUBLISHED TRANSLATIONS=Yayınlanmamış Çeviriler
+PUBLISH=yayınla
+DELETE=Sil
+TITLE=Başlık
+LANGUAGE=Dil
+LAST EDITED=Son düzenleme
+SELECT LANGUAGE=Dil seç
+ALL POLLS=Tüm anketler
+WHICH POLL=Bu anketler
+
+
+FRONTEND=önyüz
+LANGUAGES=Diller
+CPANEL=Kotrol Paneli
+CHECK TRANSLATIONS=Çevirileri Denetle
+CONFIGURATION=Yapılandırma
+
+
+
+ABOUT AND CREDITS=İlgi &amp; Emeği geçenler
+
+
+JFCATEGORIES.SEARCHBOT=Çok dilde kategori arama botu 
+JFCONTACT.SEARCHBOT=Çok dilde iletişim arama botu
+JFCONTENT.SEARCHBOT=Çok dilde içerik arama botu
+JFNEWSFEEDS.SEARCHBOT=Çok dilde haber başlıkları arama botu
+JFSECTIONS.SEARCHBOT=Çok dilde bölüm arama botu
+JFWEBLINKS.SEARCHBOT=Çok dilde web bağlantıları arama botu
+JFDATABASE.SYSTEMBOT=Çok dilde katman ayırma botu
+JFALTERNATIVE.SYSTEMBOT=Çoklu Dil Yöneticisi alternatif dil botu
+MOD_JFLANGUAGESELECTION=Çoklu Dil Yöneticisi dil seçimi
+MOD_TRANSLATE=JoomFish Kestirme Çeviri
+
+LANGUAGE TITLE=Dil Yöneticisi
+DEFAULT LANGUAGE=Site Varsayılan Dili
+DEFAULT_LANGUAGE_HELP=Çoklu Dil Yöneticisi eklentisi sizin original içeriğinizi istediğiniz herhangi bir dilde yazıp daha sonra istediğiniz diğer dillere çevirebilmenizi destekler. Biz size ön yüzde kurulmuş dillerden birisini <b>sitenin varsayılan dili</b>  olarak seçmenizi tavsiye ederiz. Bu sizin çeviri işleminizi kolaylaştıracaktır
+
+SELECT SITE LANGUAGE=Site dilini seçin:
+LANGUAGE_HELP=Lütfen sitede kullanmak istediğiniz dilleri adlandırarak etkinleştirin.<br />Dil adı site önyüzünde görünecektir.<br />&nbsp;<br /><b>DİKKAT: Bir dili kaldırmak, o dile özel yapılan tüm çevirilerin de kaldırılması demektir!</b>
+
+TITLE_MANAGEMENT=Çevirileri Yönet
+TITLE_NAME=İsim
+TITLE_AUTHOR=Yazar
+TITLE_VERSION=Sürüm
+TITLE_DESCRIPTION=Açıklama
+TITLE_TITLE=Orijinal Başlık
+TITLE_DATECHANGED=Son Güncelleme
+TITLE_STATE=Alan
+TITLE_PUBLISHED=Yayınlandı
+DISPLAY=Göster #
+NEW=Yeni
+
+TITLE_ACTIVE=Aktif
+TITLE_ISOCODE=ISO Kode
+TITLE_SHORTCODE=Kısa Kodu
+TITLE_JOOMLA=Dosya adı
+TITLE_IMAGE=Resim dosya adı
+TITLE_ORDER=Sıralama
+
+TITLE_CONFIG=Yapılandırma
+TITLE_FALLBACK=Öntanım
+
+DB REFERENCE=Veritabanındaki İsmi
+SAMPLE DATA=Örnek veri
+GENERAL INFORMATION=Genel Bilgilendirme
+BACK=Geri
+
+DATABASE_INFORMATION=Veritabanı tablosu hakkında bilgilendirme
+DATABASETABLE=Veritabanı tablosu
+DATABASETABLE_HELP=Veritabanı tablo ismi (önek - table prefix- olmadan!)
+
+DATABASEFIELDS=Veritabanı alanları
+DATABASEFIELDS_HELP=Veritabanındaki bağlantılı alanların açıklaması.
+DBFIELDNAME=İsim
+DBFIELDTYPE=Tür
+DBFIELDLABLE=Etiket
+TRANSLATE=Çeviri
+
+SET DEFAULT TEXT=Varsayılan metni ayarla
+SET COMPLETE=Ayarlandı
+SELECT NO TRANSLATION=Çevri yok
+NOTRANSLATIONYET=(henüz çevrilmedi)
+PLEASE SELECT=Lütfen seçin
+NOELEMENT_SELECTED=Lütfen içerik öğesini ve çevirilerini denetlemek istediğiniz dili seçin.
+
+ORIGINAL=Orijinal
+PUBLISHING=Yayınlanmış
+STATE_NOTEXISTING=Çeviri yok
+STATE_CHANGED=Orijinali değiştirildi
+STATE_OK=Çeviri durumu TAM
+
+COPY=Kopyala
+CLEAR=Sil
+TRANSLATION_UPTODATE=Çeviri <u>güncellendi</u>
+TRANSLATION_INCOMPLETE=Çeviri <u>tamamlanmadı</u> ya da orijinal içerik <u>çeviriden sonra değiştirilmiş</u>
+TRANSLATION_NOT_EXISTING=Çeviri <u>yok</u>
+TRANSLATION_PUBLISHED=Çeviri <u>yayınlandı</u>
+TRANSLATION_NOT_PUBLISHED=Çeviri <u>yayınlanmadı</u>
+STATE_TOGGLE=(Toggle state için simgeye tıklayın.)
+
+CONFIG SAVED=Ayarlar kaydedildi.
+CONFIG_PROBLEMS=Yapılandırma kaydedilirken hata oluştu!
+LANG_PROBLEMS=Dil bilgileri saklanırken bir hata oluştu!
+
+TRANSLATION SAVED=Çeviri kaydedildi
+TRANSLATION PUBLISHED=Çeviri yayınlandı
+TRANSLATION UNPUBLISHED=Çeviri yayınlanmadı
+TRANSLATION AGE=Çeviri Yaşı
+ORIGINAL NEWER=Orijinal daha Yeni
+TRANSLATION NEWER=Çeviri daha Yeni
+
+CATEGORY FILTER=Kategori Filtrele
+ALL CATEGORIES=Tüm Kategoriler
+STATIC CONTENT=Sabit içerik
+UNCATEGORIZED=Kategotilenmemiş
+AUTHOR FILTER=Yazar Filtrele
+ALL AUTHORS=Tüm Yazarlar
+KEYWORD FILTER=Anahtar Kelime Filtrele 
+KEYWORD=nahtar Kelime
+TRANSLATION AVAILABILITY=Mevcut Çeviriler
+MENU FILTER=Menü Filtrele
+ALL MENUS=Tüm Menüler
+
+CLIPBOARD_COPIED=Orijinal içerik geçici hafızaya kopyalandı.<br />Şimdi html olarak yazım alanına yapıştırabilirsiniz.
+CLIPBOARD_COPY=ctrl-C veya command-C tuşlarına basarak orijinali geçici hafızaya -clipboard- kopyalayın.<br />Daha sonra yazım alanına html olarak yapıştırabilirsiniz.
+CLIPBOARD_NOSUPPORT=Tarayıcınız geçici hafızaya kopyalamayı desteklemiyor.<br />Orijinali kendiniz elle kopyalayıp yapıştırmalısınız.
+
+NAME_HELP=Dilin görünen adı
+ACTIVE_HELP=Sadece aktif olan diller online sunulur. Aktif olmayan diller sadece çevirilerin hazırlanması için kullanılır.
+ISOCODE_HELP=Yerel/ISO kodu sadece dil dosyalarınızda tanımlanmıştır 
+SHORTCODE_HELP=Dil seçimi için kısa kodu (ülke kodu) tanımlayın. Boş bırakılırsa Yerel/ISO kodu kullanılacaktır.
+JOOMLACODE_HELP=Joomla! dil dizini ismi.
+IMAGES_DIR_HELP=Varsayılan bayrakları kullanmak için boş bırakın (Dosya adı kısa kod ile aynıdır!). Kişisel bayrak kullanmak için resim dosyanız Joomla! images dizininde olmalıdır
+ORDER_HELP=Önyüzde kullanılacak sıralama.
+TRANS_DEFAULT_HELP=Sabit bir metin için  kullanılır. Kullanılan dilde çeviri yapılmamışsa <strong> Uygun çeviri Yok</strong> bilgisine ihtiyaç duyulur. Bu takdirde yayınlanacak sabit bir metin tanımlayabilirsiniz
+SPACER_HELP=Dil değiştiricisi yazı biçiminde ve yatay konumlandırmada iken dil isimleri arasında kullanılacak ayraş işareti.<br /><strong>İpucu</strong>: Burayı doldurmazsanız ama yinede dil seçimi yazı biçiminde ve yatay konumda gösteriliyorsa, Joomla!nın varsayılan bu ayraç işareti kullanılır: | (öncesinde ve sonrasında boşluk var).<br />Ayraç, dil her isminin önünde ve sonunda kullanılır.
+CONFIG_HELP=Bu ek diyalogu düzenlemek  ve varolan genel yapılandırma üzerine kaydetmek için kullan
+FALLBACK_HELP=Çeviri yapılmamış ama yayına verilmiş dillerde yapılmayan çeviri yerine kullanılacak Joomla! dil dosyasını öntanımlı olarak seçin.
+
+ERROR=Hata:
+EDITED_BY_ANOTHER_ADMIN_ERROR=İçerik öğesi [ %s ] şu an başka bir yönetici tarafından düzenleniyor // %s=$actContentObject->title
+CONFIG_WRITE_ERROR=Yapılandırma dosyası yazılabilir değil!
+MAMBOT_ERROR=Çok dilli katman ayırma mambot kurulmamış ya da yayında değil - bu alanda çalışılamaz!
+FILEUPLOAD_ERROR=Dosya kopyalanamadı
+NO_LANGUAGE_DBERROR=Bir dil seçmelisiniz
+NO_SUCH_TRANSLATION= %s olarak çeviri bulunamadı - bu silinemiyor<br/>
+SOMETHING DODGY GOING ON HERE=Bazı şeyler risk altında - lütfen bu iletiyi JoomFish geliştiricilerine bildirin.<br/>
+
+TITLE_UNPUBLISHED=yayınlanmadı
+NAME MISSING=Bir isim girmelisiniz
+ENTER CORR JOOMLA NAME=Joomlaya uyan bir isim girmelisiniz
+LANG ALREADY EXISTS=Bu isimde bir dil zaten var, lütfen tekrar deneyin
+FRONTEND VLIST=İsimler Listesi (düşey)
+FRONTEND VIMAGE=Resimler Listesi (düşey)
+SPACER=Metin görüntülemek için espas tuşu
+
+CPANEL_HELP=Denetim masasınde görmek istediğiniz tüm modülleri aktif yapın. Eğer bir uyarı gözüküyorsa, yayınlanmayan veye saptanan modül daima aktif olacaktır!.
+
+NO=Hayır
+YES=Evet
+MANAGING TRANSLATIONS=Çevirileri yönet
+STORE ORIGINAL VERSION AS=Orijinal sürümün hafızalanacak ismi  
+CONTROL PANEL MODULS=Kontrol Paneli Modülleri 
+
+WHICH MODULES ARE ACTIVE ON THE CONTROL PANEL=Kontrol penelinde aktif modüller 
+
+JOOMFISH_CREDITS=Ekipler ve diğerleri 
+
+MANAGEMENT INFO=Yönetim bilgileri / sonuç
+MANAGEMENT_INTRO=Bu özellik çevirilerinizi yönetmenizi ve problemsiz bakım yapmanızı sağlar.<br />Lütfen soldan bir görev seçin.
+CHECK TRANSLATION STATUS=Çeviri Durumlarını Denetle
+CHECK ORIGINAL STATUS=Orijinal Durumları Denetle
+CONTENT ELEMENT STATUS=İçerik Öğesi Durumu
+COPY ORIGINAL TO LANGUAGE=Orijinali dile kopyala
+PROCESSING=Sorgunuzu işliyor ...
+TRANSLATION_PHASE1_GENERALCHECK=Çeviri Durumu 1/3 aşaması tamamlandı.<br />Yayınlanmış çeviriler denetleniyor ...
+TRANSLATION_PHASE2_PUBLISHEDCHECK=Çeviri Durumu 2/3 aşaması tamamlandı.<br />Her çeviri alanı denetleniyor %s ...
+TRANSLATION_PHASE3_STATECHECK=Çeviri durumu denetlemesi tamamlandı
+ORIGINAL_PHASE1_CHECK=Orijinal içerik bilgisi hazır.<br />Çeviri durumu denetleniyor %s ...
+ORIGINAL_PHASE2_CHECK=Orijinal durum denetlemesi tamamlandı.
+COPY2LANGUAGE_INFO=Lütfen çeviri için kopyalamak istediğiniz içerik öğelerini seçin.<br />Her seferinde sadec bir hedef dil seçilebilir.
+COPY TO LANGUAGE=dile kopyala
+COPIED=Kopyalandı
+DO NOT COPY=Kopyalama
+CONFIRM_COPY_TO=Lütfen varolan çeviri üzerine yazmayı onaylayın.
+OVERWRITE EXISTING TRANSLATIONS=varolan çeviriler üzerine yaz
+COPY2LANGUAGE_PROCESS=Dile kopyalanıyor ...
+COPY2LANGUAGE_COMPLETED=Orijinalin çeviriye kopyalanması başarıyla tamamlandı
+TABLE EXIST=tablo var

@@ -1,0 +1,29 @@
+# $Id: tr-TR.mod_latestnews.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+BOTH=Birlikte
+CATEGORY ID=Kategori Kimliği
+COUNT=Sayım
+DESCLATESTNEWS=Bu modül hala geçerli olan son yayınlanmış öğelerin bir listesini gösteririr (bazılarının süresi dolmuş olsa bile). Ön sayfa bileşeninde gösterilen öğeler listede bulunmazlar.
+FRONTPAGE ITEMS=Ön Sayfa Öğeleri
+LATEST NEWS=En Son Haberler
+MOD_LATESTNEWS=<em>mod_latestnews</em>
+MODULE MODE=Modül Kipi
+PARAMCATEGORYID=Özel bir kategori ya da kategoriler takımından öğeleri seçer (birden fazla kategoriyi belirtmek için, bir virgül ile  ayırınız , ).
+PARAMENABLECACHE=Bu modülün içeriğinin ön belleğe alınıp alınmayacağını seçin
+PARAMFRONTPAGEITEMS=Ön sayfa için atanmış öğeleri göster/gizle
+PARAMSECTIONID=Özel bir bölüm ya da bölümler takımından öğeleri seçer (birden fazla bölümü belirtmek için, bir virgül ile  ayırınız , ).
+SECTION ID=Bölüm Kimliği
+THE NUMBER OF ITEMS TO DISPLAY (DEFAULT 5)=Gösterilecek öğelerin sayısı (varsayılan 5)
+RECENTLY ADDED FIRST=Son Eklenenler Öncelikli
+RECENTLY MODIFIED FIRST=Son Düzenlenenler Öncelikli
+AUTHORS=Yazarlar
+ANYONE=Hiçkimse
+ORDERING OPTIONS=Sıralama Seçenekleri
+ADDED OR MODIFIED BY ME=Benim tarafımdan eklendi veya değiştirildi
+NOT ADDED OR MODIFIED BY ME=Benim tarafımdan eklenmedi veya değiştirilmedi
+A FILTER FOR THE AUTHORS=Yazarlar için bir süzgeç

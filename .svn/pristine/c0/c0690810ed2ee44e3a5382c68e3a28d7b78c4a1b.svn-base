@@ -1,0 +1,60 @@
+# $Id: tr-TR.tpl_ja_purity.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+JA_PURITY=JA Purity
+JA PURITY DESCRIPTION=JA Purity JoomlArt.com tarafından tasarlanmıştır: Yüksek erişilebilirlik, zarif ve kolay düzenlenebilir.
+LOGO TYPE=Logo türü
+LOGO TYPE DESCRIPTION=Eğer &lt;b&gt;templates/this template/images/logo.gif&lt;/b&gt; konumunda yer alan bir logo resmi kullanmak istemiyorsanız,  önceden biçimlendirilmiş metni kullanın.
+IMAGE=Resim
+TEXT=Metin
+LOGO TEXT=Logo metni
+LOGO TEXT DESCRIPTION=Eğer Logo_type metin ise, lütfen logo metninizi buraya giriniz. Site ismini kullanmak için boş bırakın
+SLOGAN=Kalıpsöz
+SLOGAN DESCRIPTION=Eğer Logo_type metin ise, slogan logo metninin altında görüntülenecektir
+FONT SIZE=Yazıtipi Boyutu
+FONT SIZE DESCRIPTION=Web sitesinin varsayılan yazıtıpi boyutu
+TEMPLATE WIDTH=Şablon Genişliği
+TEMPLATE WIDTH DESCRIPTION=Şablonun genişliği. Görecelik için otomatik.
+AUTO=Otomatik (göreceli)
+NARROW SCREEN=Dar Ekran
+WIDE SCREEN=Geniş Ekran
+SPECIFIED PERCENTAGE=Yüzde olarak tanımlı (göreceli)
+SPECIFIED PIXEL=Piksel olarak tanımlı
+SPECIFIED WIDTH=Tanımlı genişlik
+SPECIFIED WIDTH DESCRIPTION=Eğer Template_Width tanımlı ise (yüzde ya da piksel olarak), sayıyı buraya ekleyin
+HEADER THEMES=Başlık Temaları
+HEADER THEMES DESCRIPTION=3 gömülü temayı destekle
+BACKGROUND THEMES=Arkaalan Teması
+BACKGROUND THEMES DESCRIPTION=Sayfanın arkaalan temaları
+PRIMARY ELEMENTS=Öncül Öğeler
+PRIMARY ELEMENTS DESCRIPTION=Sayfanın öncül öğelerinin temaları
+HORIZONTAL NAVIGATION TYPE=Yatay Gezinme Türü
+SUCKERFISH MENU OR JAMOO MENU=Suckerfish menü ya da JAMoo menü. Gömülü açılırliste yönlendirmesi için şablonun açıklamasındaki bilgileri okuyunuz.
+JAMOO MENU=JAMoo Menü
+SUCKERFISH MENU=Suckerfish Menü
+RIGHT MODULES COLLAPSIBLE FUNCTION=Sap modüllerin açılıp kapanabilme işlevi
+RIGHT MODULES COLLAPSIBLE FUNCTION DESCRIPTION=Sağ kolonun açılıp kapanabilmesini etkileştir/etkisiz kıl
+ENABLE=Etkinleştir
+DEFAULT STATUS=Varsayılan durumlar
+DEFAULT STATUS DESCRIPTION=Varsayılan olarak, tümünü daralt ya da genişlet
+EXPAND ALL=Tümünü Genişlet
+COLLAPSE ALL=Tümünü Daralt
+EXCLUDE MODULES=Kapsam Dışındaki Modüller
+EXCLUDE MODULES DESCRIPTION=Açılıp kapanabilme işlevininin uygulanmayacağı modüllerin ID bilgileri (virgül ile ayrılmış)
+1=1
+2=2
+3=3
+4=4
+5=5
+6=6
+7=7
+TEMPLATE LOGO=<b>Şablon Logosu</b>
+HORIZONTAL NAVIGATION=Yatay Gezinim
+TEMPLATE FONT SIZE=<hr /><b>Şablon Yazıtipi Boyutu</b>
+TEMPLATE_WIDTH=<hr /><b>Şablon Genişliği</b>
+TEMPLATE STYLES=<hr /><b>Şablon Biçemi</b>
+RIGHT MODULES=<hr /><b>Sağ modüllerin açılıp kapanabilme işlevi</b>

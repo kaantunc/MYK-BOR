@@ -1,0 +1,19 @@
+# $Id: tr-TR.plg_authentication_openid.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+HANDLES USER AUTHENTICATION WITH AN OPENID (REQUIRES PHP5)=OpenID ile kullanıcı yetkilerini denetler (PHP5 gerektirir)
+LOGIN_WITH_OPENID=Bir OpenID ile oturum aç
+NORMAL_LOGIN=Normal girişe dön
+WHAT_IS_OPENID=OpenId nedir?
+CONVERT OLD USERNAMES=Eski Kullanıcı Adlarını Dönüştür
+OPENID_USERMODE_DESC=Eğer zaten OpenID kullanan bir siteyi güncelliyorsanız, evet olarak seçmelisiniz. Aksi durumda, hayır olarak seçiniz. Ek bilgi için 1.5.11 sürüm notlarına bakınız.
+REQUIRE POLICY PHISHING RESISTANT=e-Dolandırıcılıktan koruma ilkesi iste
+PHISHING_RESISTANT_DESC=OPlerin http://schemas.openid.net/pape/policies/2007/06/phishing-resistant için yapılandırılmış olması şartı arar.
+REQUIRE POLICY MULTI FACTOR=Çoklu-etki ilkesi iste
+MULTI_FACTOR_DESC=OPlerin http://schemas.openid.net/pape/policies/2007/06/multi-factor için yapılandırılmış olması şartı arar.
+REQUIRE POLICY MULTI FACTOR PHYSICAL=Çoklu-fiziksel-etki ilkesi iste
+MULTI_FACTOR_PHYSICAL_DESC=OPlerin http://schemas.openid.net/pape/policies/2007/06/multi-factor-physical için yapılandırılmış olması şartı arar.

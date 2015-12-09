@@ -1,0 +1,20 @@
+# $Id: tr-TR.com_search.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+DESCSEARCH=Bu bileşen, arama işlevselliğini yönetir.
+GATHER SEARCH STATISTICS=Arama İstatistiklerini Topla
+HIDE SEARCH RESULTS=Arama Sonuçlarını Gizle
+RESULTS RETURNED=Arama Sonuçları
+SEARCH LOGGING=Arama Kayıtları
+SEARCH STATISTICS=Arama İstatistikleri
+SEARCH TEXT=Arama Metni
+SHOW CREATED DATE=Oluşturulma Tarihini Göster
+SHOW SEARCH RESULTS=Arama Sonuçlarını Göster
+STANDARD SEARCH FORM=Standart Arama Formu
+STANDARD SEARCH LAYOUT DESC=Standart arama düzeni, arama formunu ve sonuçları gösterir.
+TIMES REQUESTED=Arama Zamanları
+TIPSEARCHSTATISTICS=Site arama istatistiklerini etkinleştir/etkisiz kıl

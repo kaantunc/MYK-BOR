@@ -1,0 +1,26 @@
+# $Id: tr-TR.com_massmail.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+ALL USER GROUPS=Tüm Kullanıcı Grupları
+BODYSUFFIXTIP=Posta metninin sonuna eklenmiştir
+DESCMASSMAIL=Bu bileşen, belirli kullanıcı gruplarına toplu e-Posta atabilmenizi olanaklı kılar.
+E-MAIL SENT TO=%s kullanıcılarına e-Posta gönderildi
+GROUP=Grup
+MAILBODY SUFFIX=Posta Metni Soneki
+MAIL TO CHILD GROUPS=Alt Gruplara Postala
+MASS MAIL=Toplu Posta
+PLEASE FILL IN THE FORM CORRECTLY=Formu doğru biçimde doldurunuz
+PLEASE FILL IN THE SUBJECT=Konu giriniz
+PLEASE FILLIN THE MESSAGE=Mesaj Giriniz
+PLEASE SELECT A GROUP=Grup Seçiniz
+RECIPIENTS AS BCC=BCC olarak alımlar. <br /> Site e-Postasına kopya ekler.
+SEND AS BLIND CARBON COPY=Alıcılar listesini gizler.
+SEND IN HTML MODE=HTML biçiminde gönder
+SEND MAIL=Posta Gönder
+SUBJECT PREFIX=Konu Öneki
+SUBJECTPREFIXTIP=Posta konusunun önüne eklenecektir
+USERS=Kullanıcılar

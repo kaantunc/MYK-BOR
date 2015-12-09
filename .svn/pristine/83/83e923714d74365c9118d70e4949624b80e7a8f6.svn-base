@@ -1,0 +1,80 @@
+# $Id: tr-TR.com_newsfeeds.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+A FEED=Besleme
+ALIGNMENT OF THE IMAGE=Resim Hizası
+CACHE DIRECTORY=Ön Bellek Klasörü
+CACHE TIME=Ön Bellek Süresi
+CATEGORY DESCRIPTION=Kategori Açıklaması
+CATEGORIES GROUP=Tüm Kategoriler
+CATEGORIES GROUP DESC=Tüm haber besleme kategorilerini gösterir.
+CATEGORY GROUP=Kategori
+CATEGORY GROUP DESC=Bir haber besleme kategorisini gösterir.
+CATEGORY LIST - CATEGORY=Kategori Listesi (Kategori)
+CATEGORY LIST - SECTION=Kategori Listesi (Bölüm)
+CHANGES TO NEWSFEED SAVED=Değişiklikler haber beslemesine kaydedildi
+DESCNEWITEMSLAST=Yeni besleme öğeleri varsayılan olarak son sırada yer alırlar. Sıralama, öğe kaydedildikten sonra değiştirilebilir.
+DESCRIPTION FOR PAGE=Sayfa açıklaması
+DESCRIPTION TEXT=Açıklama Metni
+EDIT NEWSFEED=Haber Beslemesini Düzenle
+FEED=Besleme
+FEED DESCRIPTION=Besleme Açıklaması
+IMAGE ALIGN=Resim Hizası
+INDIVIDUAL FEED GROUP=Özel Besleme
+INDIVIDUAL FEED GROUP DESC=Sadece bir haber beslemesini gösterir.
+ITEM DESCRIPTION=Öğe Açıklaması
+LEFT TO RIGHT DIRECTION=Soldan Sağa Yönü
+LINK=Bağlantı
+LINK COLUMN=Bağlantı Sütunu
+NAME COLUMN=İsim Sütunu
+NEWS FEED=Haber Beslemesi İsmi
+NEWSFEED=Haber Beslemesi
+NEWSFEED CATEGORY LAYOUT=Kategori Düzeni
+NEWSFEED CATEGORY LAYOUT DESC=Kategorideki haber beslemelerinin listesini gösterir.
+NEWSFEED CATEGORY LIST LAYOUT=Kategori Listesi Düzeni
+NEWSFEED CATEGORY LIST LAYOUT DESC=Tüm haber besleme kategorilerinin listesini gösterir.
+NEWSFEED LAYOUT=Haber Beslemesi Düzeni
+NEWSFEED MANAGER=Haber Beslemesi Yöneticisi
+NEWSFEED SINGLE LAYOUT=Özel Besleme Düzeni
+NEWSFEED SINGLE LAYOUT DESC=Sadece bir haber beslemesini gösterir.
+NEWSFEED SAVED=Haber beslemesi kaydedildi
+NUM CATEGORY ITEMS=Kategori Öğesi #
+NUM ARTICLES=Makale #
+NUM ARTICLES COLUMN=Makale Sütunu #
+NUMBER OF ARTICLES=Makale Sayısı
+PARAMARTICLES=Beslemedeki makale sayısını göster/gizle
+PARAMCATDESC=Kategori açıklamasını göster/gizle
+PARAMCATSELECT=Haber beslemesi kategorisi (isteğe bağlı)
+PARAMCATITEMS=Her kategorideki öğe sayısını göster/gizle
+PARAMFEEDDESC=Beslemenin açıklama metnini göster/gizle
+PARAMIMAGE=Sayfa resmi, /images/stories klasöründe yer almalıdır. Varsayılan olarak web_links.jpg yüklenecektir. Resim Yok, resim yüklenmeyeceği anlamına gelir.
+PARAMITEMDESC=Öğenin açıklamasını ya da giriş metnini göster/gizle
+PARAMOTHERCAT=Tablo görünümünde kategoriler listesini göster/gizle
+PARAMOTHERCATSECTION=Liste görünümünde kategoriler listesini göster/gizle
+PARAMWORDCOUNT=Açıklama metninin görünn kısmına sınır koyabilirsiniz. 0 (sıfır) yazarsanız, tüm metin görüntülenecektir.
+PLEASE FILL IN THE CACHE REFRESH TIME.=Ön bellek yenileme süresini girin
+PLEASE FILL IN THE NEWSFEED LINK.=Haber beslemesinin bağlantısını girin
+PLEASE FILL IN THE NEWSFEED NAME.=Haber beslemesinin ismini girin
+PLEASE SELECT A FEED=Lütfen bir besleme seçin
+RTL FEED=RTL Besleme
+RIGHT TO LEFT DIRECTION=Sağdan Sola Yönü
+SELECT FEED=Besleme Seçin
+SHOW/HIDE THE DESCRIPTION BELOW=Altında açıklama göster/gizle
+SHOW/HIDE THE FEED LINK COLUMN=Besleme bağlantı sütununu göster/gizle
+SHOW/HIDE THE FEED NAME COLUMN=Besleme ismi sütununu göster/gizle
+SHOW/HIDE THE IMAGE OF THE FEED=Besleme resmini göster/gizle
+SHOW LIMIT BOX=Sınırlama Kutusunu Göster
+SHOW/HIDE THE LIMIT BOX=Sınırlama kutusunu göster/gizle
+SHOW/HIDE THE TABLE HEADINGS=Tablo üst bilgilerini göster/gizle
+SITE LANGUAGE DIRECTION=Site Dili Yönü
+TABLE HEADINGS=Tablo Üst Bilgileri
+THIS COMPONENT MANAGES RSS/RDF NEWSFEEDS=Bu bileşen, RSS/RDF haber beslemelerini yönetir.
+TIPCACHETIME=Haber beslemesi ön belleği yenileme süresi (dakika).
+UNWRITABLE=Yazılamaz
+VALIDARTICLESDISPLAY=Görüntülenecek makale sayısını girin
+WORD COUNT=Sözcük Sayımı
+WRITABLE=Yazılabilir

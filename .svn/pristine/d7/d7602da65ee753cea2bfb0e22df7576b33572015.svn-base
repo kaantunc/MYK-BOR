@@ -1,0 +1,40 @@
+BASVURU_KAYDI_BASARISIZ=Başvuru Oluşturulmadı!
+VERI_KAYDI_BASARILI=Veriler Başarıyla Kaydedildi
+VERI_KAYDI_BASARISIZ=Veriler Kaydedilirken Hata Oluştu!
+
+ALT_BIRIM_SIL_HATA=Alt Birim Silme Başarısız! Lütfen EK 2'de silmek istediğiniz alt birimi kullanıp kullanmadığınızı kontrol ediniz.
+ALT_BIRIM_GUNCELLE_HATA=Alt Birim Güncellenmesi Başarısız!
+ALT_BIRIM_EKLE_HATA=Alt Birim Ekleme Başarısız!
+
+BECERI_YETKINLIK_SIL_HATA=Öğrenme Çıktısı Silme Başarısız! Lütfen EK 3'de silmek istediğiniz öğrenme çıktısını kullanıp kullanmadığınızı kontrol ediniz.
+BECERI_YETKINLIK_GUNCELLE_HATA=Öğrenme Çıktısı Güncellenmesi Başarısız!
+BECERI_YETKINLIK_EKLE_HATA=Öğrenme Çıktısı Ekleme Başarısız!
+
+DEGERLENDIRME_SIL_HATA=Değerlendirme Aracı Silme Başarısız! Lütfen EK 3'de silmek istediğiniz değerlendirme aracını kullanıp kullanmadığınızı kontrol ediniz.
+DEGERLENDIRME_YETKINLIK_GUNCELLE_HATA=Değerlendirme Aracı Güncellenmesi Başarısız!
+DEGERLENDIRME_YETKINLIK_EKLE_HATA=Değerlendirme Aracı Ekleme Başarısız!
+
+SEKTOR_SORUMLUSU_GIRECEGI_BILGILER=Sektör Sorumlusunun Gireceği Bilgiler
+
+OLUSTURULMAMIS_ON_TASLAK=Ön Taslak Oluşturulmadı 
+DEGISIKLIK_YAPILMIS_ON_TASLAK=Ön Taslak Hazırlanıyor 
+INCELEMEYE_GONDERILMIS_ON_TASLAK=Sektör Sorumlusu İncelemesine Gönderildi 
+ONAYLANMIS_ON_TASLAK=Sektör Sorumlusu Ön Taslağı Onayladı 
+
+EDIT_TEXT=Güncelle
+DELETE_TEXT=Sil
+SAVE_TEXT=Kaydet
+CANCEL_TEXT=İptal
+ADD_ROW_TEXT=Yeni Satır Ekle
+LENGTH_MENU=# _MENU_ öğe göster
+ZERO_RECORDS=Uygun kayıt bulunamadı
+INFO=_START_ - _END_ (Toplam _TOTAL_ öğe)
+INFO_EMPTY=0 - 0 (Toplam 0 öğe)
+INFO_FILTERED=(_MAX_ öğeden filtrelendi)
+SEARCH=Ara :
+FIRST=İlk
+PREVIOUS=Önceki
+NEXT=Sonraki
+LAST=Son
+DELETE_CONFIRM_TEXT=Silmek istediğinize emin misiniz?
+DELETE_CONFIRM_TITLE=Satır Silme

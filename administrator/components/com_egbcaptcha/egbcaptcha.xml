@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+    <name>egbcaptcha</name>
+    <author>egbsystems</author>
+    <creationDate>15/05/2010</creationDate>
+  <copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>www.egbsystems.com</authorUrl>
+	<version>1.5.0</version>
+    <description>Custom captcha For All Forms Developed by EGBSYSTEMS </description>
+
+    <!-- installation part -->
+    <install>
+        <queries>
+           
+        </queries>
+    </install>
+
+    <installfile>install.egbcaptcha.php</installfile>
+    <uninstallfile>uninstall.egbcaptcha.php</uninstallfile>
+
+    <!-- user part -->
+    <files folder="components/com_egbcaptcha">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>router.php</filename>
+        <filename>egbcaptcha.php</filename>
+        <folder>models</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.com_egbcaptcha.ini</language>
+    </languages>
+
+    <!-- administration part -->
+    <administration>
+
+    <menu task="default" img="js/ThemeOffice/component.png">egbcaptcha</menu>
+    <submenu>
+        <menu link="option=com_egbcaptcha">egbcaptcha</menu>
+    </submenu>
+
+    <files>
+        <filename>egbcaptcha.xml</filename>
+    </files>
+    <files folder="administrator/components/com_egbcaptcha">
+        <filename>config.xml</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>install.egbcaptcha.php</filename>
+        <filename>egbcaptcha.php</filename>
+        <filename>uninstall.egbcaptcha.php</filename>
+        <folder>helpers</folder>
+        <folder>models</folder>
+        <folder>tables</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="administrator/language/en-GB">
+        <language tag="en-GB">en-GB.com_egbcaptcha.menu.ini</language>
+        <language tag="en-GB">en-GB.com_egbcaptcha.ini</language>
+    </languages>
+
+    </administration>
+
+    <params>
+
+    </params>
+
+</install>

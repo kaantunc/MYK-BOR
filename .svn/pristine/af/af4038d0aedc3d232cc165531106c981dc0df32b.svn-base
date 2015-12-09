@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC
+          "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Dynarch Calendar -- Single calendar for multiple fields</title>
+    <script src="js/jscal2.js"></script>
+    <script src="js/lang/tr.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jscal2.css" />
+    <link rel="stylesheet" type="text/css" href="css/border-radius.css" />
+  </head>
+  <body>
+
+    <input size="30" id="f_date1" /><input type="button" id="f_btn1"></input>
+
+    <script type="text/javascript">//<![CDATA[
+	// bu script inputtan sonra konmalı
+      var cal = Calendar.setup({
+          onSelect: function(cal) { cal.hide() }
+      });
+
+      // her bir alan için aşağıdaki şekilde methodlar çağrılır
+      cal.manageFields("f_btn1", "f_date1", "%d.%m.%Y");
+
+      // eğer tablodaysa,her bir kolon için, aşağıdaki fonk çağrılır
+      // patchEkleForDatePick(id, columnNo)
+      patchEkleForDatePick("belgeDuzenlenecekBilgi", 5);
+
+    //]]></script>
+  </body>
+</html>

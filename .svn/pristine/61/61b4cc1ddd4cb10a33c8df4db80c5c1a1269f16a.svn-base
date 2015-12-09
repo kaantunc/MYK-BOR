@@ -1,0 +1,13 @@
+KURULUS_GUNCELLE_HATA=Kuruluş Bilgileri Güncellenirken Hata Oluştu
+KURULUS_GUNCELLE_BASARILI=Kuruluş Bilgileri Başarıyla Güncellendi
+
+STANDART_GUNCELLE_HATA=Meslek Standardı Güncellenirken Hata Oluştu
+STANDART_DURUM_GUNCELLE_HATA=Meslek Standardı Listeden Silinirken Hata Oluştu
+STANDART_EKLE_HATA=Meslek Standardı Eklenirken Hata Oluştu
+
+YETERLILIK_GUNCELLE_HATA=Yeterlilik Güncellenirken Hata Oluştu
+YETERLILIK_DURUM_GUNCELLE_HATA=Yeterlilik Listeden Silinirken Hata Oluştu
+YETERLILIK_EKLE_HATA=Yeterlilik Eklenirken Hata Oluştu
+
+VERI_KAYDI_BASARILI=Veriler Başarıyla Kaydedildi
+BASVURU_OLUSTURMA_HATA=Başvuru Oluşturulmadı!

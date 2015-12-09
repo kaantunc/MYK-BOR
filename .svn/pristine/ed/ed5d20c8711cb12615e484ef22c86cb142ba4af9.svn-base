@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install type="template" version="1.5.0" client="administrator">
+	<name>Bor</name>
+	<creationDate>09/09/09</creationDate>
+	<author>BorSoft</author>
+	<authorEmail>burak@boryazilim.com</authorEmail>
+	<authorUrl>http://www.boryazilim.com</authorUrl>
+	<copyright>All Rights Reserved</copyright>
+	<license></license>
+	<version>1.0</version>
+	<description>BorSoft Administration template</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>cpanel.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>login.php</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css/</folder>
+		<folder>html/</folder>
+		<folder>images/</folder>
+		<folder>js/</folder>
+	</files>
+	<positions>
+		<position>menu</position>
+		<position>submenu</position>
+		<position>toolbar</position>
+		<position>title</position>
+		<position>status</position>
+		<position>icon</position>
+		<position>cp_shell</position>
+		<position>cpanel</position>
+		<position>debug</position>
+	</positions>
+	<params>
+		<param name="useRoundedCorners" type="radio" default="1" label="Use Rounded Corners" description="Enable/Disable Rounded Corner Effect">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="showSiteName" type="radio" default="0" label="Show Site Name" description="Show the site name in the template header">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="headerColor" type="folderlist" default="h_green" directory="administrator/templates/bor/images" filter="^h_." hide_none="1" hide_default="1" label="Header Color" description="The color of the bar under the header" />
+	</params>
+</install>

@@ -1,0 +1,58 @@
+# $Id: tr-TR.com_admin.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+CACHE DIRECTORY=Ön Bellek Klasörü
+CHANGELOG=Değişiklik Kayıtları
+CLEAR RESULTS=Sonuçları Temizle
+CONFIGURATION FILE=Yapılandırma Dosyası
+CONTROL PANEL=Denetim Masası
+CREDITS=Emeği Geçenler
+DATABASE COLLATION=Veritabanı Karşılaştırması
+DATABASE VERSION=Veritabanı Sürümü
+DESCDIRWRITABLE=Tüm Joomla! özelliklerinin tam olarak çalışabilmesi için, belirtilen klasörler yazılabilir olmalıdır:
+DIRECTORY=Klasör
+DISABLED FUNCTIONS=Ektisizleştirilen İşlevler
+DISPLAY ERRORS=Hataları Göster
+FILE UPLOADS=Dosya Yüklemeleri
+GLOSSARY=Sözlük
+ICONV AVAILABLE=Iconv Kullanılabilir
+INDEX=İçerik
+INFORMATION=Bilgi
+LATEST VERSION CHECK=Son Sürüm Denetimi
+LICENSE=Lisans
+LOG DIRECTORY=Günlük Klasörü
+MAGIC QUOTES=Sihirli Alıntılar
+MBSTRING ENABLED=Mbstring Etkin
+JOOMLA! VERSION=Joomla! Sürümü
+OPEN BASEDIR=Kök klasörü aç
+OPEN IN NEW WINDOW=Yeni pencerede aç
+OUTPUT BUFFERING=Çıktı Koruması
+PHP BUILT ON=PHP Kurulu Sistem
+PHP INFO=PHP Bilgisi
+PHP INFORMATION=PHP Bilgisi
+PHP SETTINGS=PHP Ayarları
+PHP VERSION=PHP Sürümü
+REGISTER GLOBALS=Evrensel Kayıt
+RELEVANT PHP SETTINGS=İlgili PHP Ayarları
+SAFE MODE=Güvenli Mod
+SESSION AUTO START=Otomatik Oturum Başlatma
+SESSION SAVE PATH=Oturum Kayıt Yolu
+SETTING=Ayarlama
+SHORT OPEN TAGS=Kısa Açık Etiketler
+SITE PREVIEW=Site Önizleme
+STATUS=Durum
+SUPPORT=Destek
+SYSTEM INFO=Sistem Bilgisi
+SYSTEM INFORMATION=Sistem Bilgisi
+TEMP DIRECTORY=Geçici Klasör
+USER AGENT=Kullanıcı Aracısı
+VALUE=Değer
+WEB SERVER=Web Sunucusu
+WEBSERVER TO PHP INTERFACE=Web sunucusundan PHP arayüzüne
+WYSIWYG EDITOR=Metin Düzenleyicisi
+XML ENABLED=XML Etkin
+ZLIB ENABLED=Zlib Etkin

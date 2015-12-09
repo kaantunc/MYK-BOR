@@ -1,0 +1,49 @@
+# $Id: tr-TR.com_sections.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+ARTICLES BEING COPIED=Makaleler kopyalanıyor
+CANNOT PUBLISH AN EMPTY SECTION=Boş bir bölüm yayınlanamaz
+CATEGORIES BEING COPIED=Kategoriler kopyalanıyor
+CHANGES TO SECTION SAVED=Değişiklikler bölüme kaydedildi.
+COPY SECTION=Bölümü Kopyala
+COPY TO SECTION=Bölüme Kopyala
+DESCCATANDITEMSCOPIED=%s bölümü, tüm kategorileri ve makaleleri %s olarak kopyalandı
+DESCALLITEMSWITHINCAT=ve kategorideki tüm makaleler (listelenmiş olan)
+DESCCANNOTBEREMOVED=Kategori içerdiğinden %s bölümü silinemez
+DESCNEWITEMSLAST=Yeni bölümler varsayılan olarak son sırada yer alırlar. Sıralama, öğe kaydedildikten sonra değiştirilebilir.
+DESCNEWMENUITEM=Seçtiğiniz menüde, yeni bir menü öğesi oluşturur
+GO TO MENU=Menüye Git
+GO TO MENU ITEM=Meni Öğesine Git
+IMAGE POSITION=Resim Konumu
+ITEM NAME=Öğe İsmi
+MENU=Menü
+MENUTYPE SUCCESSFULLY CREATED=Menüde %s ( %s ): %s başarıyla oluşturuldu
+NEW SECTION=Yeni Bölüm
+#If the variable does not work in your language use following line
+# PLEASE MAKE A SELECTION FROM THE LIST TO=Please select a Section from the list
+#instead of
+PLEASE MAKE A SELECTION FROM THE LIST TO=%s işlemi için listeden bir bölüm seçin
+PLEASE SELECT A MENU TYPE=Menü türü seçin
+PUBLISH ITEM=Bölümü yayınla
+SCOPE=Kapsam
+SECTION BLOG=Bölüm Blogu
+SECTION DETAILS=Bölüm Ayrıntıları
+SECTION ID=Bölüm Kimliği
+SECTION LIST=Bölüm Listesi
+SECTION MANAGER=Bölüm Yöneticisi
+SECTION MUST HAVE A TITLE=Bölüm başlığı girmelisiniz
+SECTION SAVED=Bölüm Kaydedildi
+SECTION TABLE=Bölüm Tablosu
+SECTIONS SUCCESSFULLY DELETED=%s bölümü başarıyla silindi
+SELECT A SECTION TO=İşlem için bölüm seçin :
+SELECT A SECTION TO DELETE=Silmek için bölüm seçin
+SELECT TYPE=Tür Seçin
+SUCCESSFULLY DELETED=Başarıyla silindi
+THE NEW SECTION TITLE=Yeni bölüm başlığı
+THE SECTION=Bölüm
+TO THE NEW SECTION CREATED.=oluşturulan yeni bölüme.
+UNPUBLISH ITEM=Bölümü yayından kaldır

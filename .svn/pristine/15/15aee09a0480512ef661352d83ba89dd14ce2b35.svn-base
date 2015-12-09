@@ -1,0 +1,23 @@
+# $Id: tr-TR.com_cache.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+CACHE MANAGER - CLEAN CACHE ADMIN=Ön Bellek Yöneticisi - Yönetici Ön Belleğini Temizle
+CACHE MANAGER - PURGE CACHE ADMIN=Ön Bellek Yöneticisi - Yönetici Ön Belleğini Kaldır
+PURGE EXPIRED=Zaman aşımını kaldır
+PURGE EXPIRED ITEMS=Zaman aşımına uğramış öğeleri kaldır
+WARNING: THIS CAN BE RESOURCE INTENSIVE ON SITES WITH LARGE NUMBER OF ITEMS!=UYARI: Çok sayıda öğe ile sitenizde aşırı kaynak kullanımı olabilir!
+CLICK ON THE PURGE EXPIRED ICON IN THE TOOLBAR TO DELETE ALL EXPIRED CACHE FILES. NOTE: CACHE FILES THAT ARE STILL CURRENT WILL NOT BE DELETED.=Tüm zaman aşımına uğramış ön bellek dosyalarını silmek için araç çubuğundaki "Kaldır" simgesine tıklatınız. Not: Kullanımdaki ön bellek dosyaları silinmeyecektir.
+EXPIRED ITEMS HAVE BEEN PURGED=Zaman aşımına uğramış öğeler kaldırıldı
+SUCCESS!=Başarılı!
+CACHE DIRECTORY IS UNWRITABLE=Ön bellek klasörü yazılamaz.
+CACHE DIRECTORY IS WRITABLE=Ön bellek klasörü yazılabilir.
+NUM=#
+CACHE GROUP=Ön Bellek Grubu
+NUMBER OF FILES=Dosya Sayısı
+SIZE=Boyut
+WRITABLE=Yazılabilir
+UNWRITABLE=Yazılamaz

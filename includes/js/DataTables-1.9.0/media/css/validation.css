@@ -1,0 +1,7 @@
+.requiredError, .emailError, .urlError{
+	border: 1px solid red;
+}
+
+.requiredMessage, .urlMessage, .emailMessage{
+	color: red;
+}

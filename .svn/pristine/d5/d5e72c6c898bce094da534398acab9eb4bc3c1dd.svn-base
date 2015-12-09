@@ -1,0 +1,87 @@
+# $Id: tr-TR.mod_menu.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+ADD/EDIT=Ekle/Düzenle
+ARCHIVE=Arşiv
+ARTICLE MANAGER=Makale Yöneticisi
+ARTICLE TRASH=Makale Çöp Kutusu
+ARTICLE STATISTICS=Makale İstatistikleri
+BACK=Geri Dön
+BROWSER, OS, DOMAIN=Tarayıcı, İşletim Sistemi, Alan Adı
+CATEGORIES=Kategoriler
+CATEGORY MANAGER=Kategori Yöneticisi
+CHECK-IN ALL CHECKED-OUT ITEMS=Tüm Makaleleri Denetle
+CLEAN ALL CACHES=Tüm Ön Belleği Temizle
+CLEAN CONTENT CACHE=İçerik Ön Belleğini Temizle
+CLEAN THE ARTICLES CACHE=Makale Ön Belleğini Temizle
+COMPONENT MANAGEMENT=Bileşen Yönetimi
+COMPONENTS=Bileşenler
+CONFIGURATION=Genel Yapılandırma
+CONTENT BY SECTION=Bölümlere Göre İçerik
+CONTENT MANAGEMENT=İçerik Yönetimi
+CONTENT MANAGERS=İçerik Yöneticileri
+CONTROL PANEL=Denetim Masası
+ELEMENT LIST=Öğe Listesi
+EXTENSIONS=Eklentiler
+EXTENSION MANAGER=Eklenti Yöneticisi
+FRONTPAGE MANAGER=Ön Sayfa Yöneticisi
+GLOBAL CHECKIN=Genel Denetim
+INSTALL EXTENSIONS=Eklenti Kur
+INSTALL/UNINSTALL=Kur/Kaldır
+INSTALLER=Kurucu
+ITEMS=Öğeler
+JOOMLA! HELP=Joomla! Yardım
+LANGUAGE MANAGER=Dil Yöneticisi
+LANGUAGES=Diller
+LOGOUT=Kullanıcı Çıkışı
+MANAGE ARTICLES=Makaleleri Yönet
+MANAGE CONTENT CATEGORIES=İçerik Kategorilerini Yönet
+MANAGE CONTENT SECTIONS=İçerik Bölümlerini Yönet
+MANAGE FRONTPAGE ITEMS=Ön Sayfa Makalelerini Yönet
+MANAGE LANGUAGES=Dilleri Yönet
+MANAGE MEDIA FILES=Ortam Dosyalarını Yönet
+MANAGE MENU=Menüleri Yönet
+MANAGE TRASH=Çöp Kutusunu Yönet
+MANAGE USERS=Kullanıcıları Yönet
+MEDIA MANAGER=Ortam Yöneticisi
+MENUS=Menüler
+MENU INACTIVE FOR THIS PAGE=Menü bu sayfa için etkisizdir.
+MENU MANAGEMENT=Menü Yönetimi
+READ MESSAGES=Mesajları Oku
+MOD_CSSMENU=mod_cssmenu
+MODULE MANAGER=Modül Yöneticisi
+MODULES=Modüller
+MOD_MENU=mod_menu
+MORE COMPONENTS...=Tüm Bileşenler...
+PAGE HITS=Sayfa İzlenimleri
+PREVIEW...=Önizleme...
+PLUGIN MANAGEMENT=Uyumlu Ek Yönetimi
+PLUGIN MANAGER=Uyumlu Ek Yöneticisi
+PLUGINS=Uyumlu Ekler
+SEARCH TEXT=Arama Metni
+SECTION MANAGER=Bölüm Yöneticisi
+SITE MANAGEMENT=Site Yönetimi
+SITE STATISTICS=Site İstatistikleri
+STATISTICS=İstatistikler
+SYNDICATE=Eşleme
+SYSTEM=Sistem
+SYSTEM INFO=Sistem Bilgisi
+SYSTEM INFORMATION=Sistem Bilgisi
+SYSTEM MANAGEMENT=Sistem Yönetimi
+TEMPLATES - ADMIN=Şablon - Yönetici
+TEMPLATES - SITE=Şablon - Site
+TEMPLATE MANAGER=Şablon Yöneticisi
+THEMEOFFICE=TemaOfisi
+THIS MODULE SHOWS THE MAIN ADMIN NAVIGATION MODULE=Bu modül, denetim masası menüsünü gösterir
+MENU TRASH=Menü Çöp Kutusu
+UNINSTALL COMPONENTS=Bileşenleri Kaldır
+USER MANAGER=Kullanıcı Yöneticisi
+UNINSTALL PLUGINS=Uyumlu Ekleri Kaldır
+UNINSTALL MODULES=Modülleri Kaldır
+WRITE MESSAGE=Mesaj Yaz
+CLEAN CACHE=Ön Belleği Temizle
+PURGE EXPIRED CACHE=Zaman Aşımındaki Ön Belleği Temizle

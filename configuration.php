@@ -1,0 +1,66 @@
+<?php
+class JConfig {
+	var $oraclePort = '1521';
+	var $oracleHost = '10.6.30.11';
+//	var $oracleHost = '19.168.10.84';
+//	var $oracleHost = 'bor.no-ip.org';
+	var $oracleServiceName = 'mykdb';
+	var $oracleUser = 'BOR';
+	var $oraclePassword = 'BOR';
+	var $offline = '0';
+	var $editor = 'tinymce';
+	var $list_limit = '20';
+	var $helpurl = 'http://help.joomla.org';
+	var $debug = '0';
+	var $debug_lang = '0';
+	var $sef = '0';
+	var $sef_rewrite = '0';
+	var $sef_suffix = '0';
+	var $feed_limit = '10';
+	var $feed_email = 'author';
+	var $secret = 'IjtRBoxdrchSPHSQ';
+	var $gzip = '0';
+	var $error_reporting = '-1';
+	var $xmlrpc_server = '0';
+	var $log_path = 'C:\\wamp\\www\\MYK-Portal\\MYK-Portal-Yeni\\logs';
+	var $tmp_path = 'C:\\wamp\\www\\MYK-Portal\\MYK-Portal-Yeni\\tmp';
+	var $live_site = '';
+	var $force_ssl = '0';
+	var $offset = '2';
+	var $caching = '0';
+	var $cachetime = '15';
+	var $cache_handler = 'file';
+	var $memcache_settings = array();
+	var $ftp_enable = '0';
+	var $ftp_host = '127.0.0.1';
+	var $ftp_port = '21';
+	var $ftp_user = 'admin';
+	var $ftp_pass = 'admin';
+	var $ftp_root = '';
+	var $dbtype = 'mysql';
+	var $host = 'localhost';
+	var $user = 'root';
+	var $db = 'mykbor';
+	var $dbprefix = 'jos_';
+	var $mailer = 'smtp';
+	var $mailfrom = 'info@myk.gov.tr';
+	var $fromname = 'MYK Web Portal';
+	var $sendmail = '/usr/sbin/sendmail';
+	var $smtpauth = '0';
+	var $smtpsecure = 'none';
+	var $smtpport = '25';
+	var $smtpuser = '';
+	var $smtppass = '';
+	var $smtphost = '127.0.0.1';
+	var $MetaAuthor = '1';
+	var $MetaTitle = '1';
+	var $lifetime = '600';
+	var $session_handler = 'database';
+	var $password = '';
+	var $sitename = 'MYK TEST Portal';
+	var $MetaDesc = 'MYK - Mesleki Yeterlilik Kurumu Web Portalı';
+	var $MetaKeys = 'MYK, myk, Mesleki Yeterlilik Kurumu, meslek, yeterlilik, sınav ve belgelendirme, meslek standartları, sınav, belgelendirme, standart';
+	
+	var $offline_message = 'Site şu anda güncellenmektedir.Lütfen daha sonra tekrar deneyiniz!';
+}
+?>

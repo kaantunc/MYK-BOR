@@ -1,0 +1,49 @@
+# $Id: tr-TR.plg_authentication_ldap.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+AUTHORIZATION METHOD=Yetkilendirme Yöntemi
+ANONYMOUS COMPARE=İsimsiz Karşılaştırma
+AUTHENTICATE THEN BIND=Yetkilendirme Sonrası Bağlama
+BASE DN=Temel DN
+BIND AS USER=Kullanıcı Olarak Bağla
+BIND AND SEARCH=Bağla Ve Ara
+BIND DIRECTLY AS USER=Kullanıcı Olarak Direk Bağla
+CONNECT PASSWORD=Bağlantı şifresi
+CONNECT USERNAME=Bağlantı kullanıcı adı
+DEFAULT PORT IS 389=Varsayılan bağlantı noktası 389
+FOLLOW REFERRALS=Gönderenleri takip et
+FOR EXAMPLE, OPENLDAP.MYCOMPANY.ORG=Örneğin, openldap.mycompany.org
+HANDLES USER AUTHENTICATION AGAINST AN LDAP SERVER=LDAP Sunucusundan kullanıcı yetkilerini denetler
+HOST=Sunucu
+LDAP AUTHENTICATION=LDAP Yetkileri
+LDAP V3=LDAP Sürüm 3
+MAP FULLNAME=Harita: Tam İsim
+MAP EMAIL=Harita: e-Posta
+MAP USER ID=Harita: Kullanıcı Kimliği (ID)
+MAP PASSWORD=Harita: Şifre
+NEGOTIATE TLS=TLS Anlaş
+NO=Hayır
+PARAMLDAPHOST=Örneğin, openldap.mycompany.org
+PARAMLDAPPORT=Varsayılan Bağlantı Noktası 389
+PARAMBASEDN=LDAP sunucunuzda Temel DN
+PARAMAUTHMETHOD=Kimlik denetimi için yetkilendirme yöntemi
+PARAMCONNECTSTRING=DN araması süresince bağlantı kullanıcı adı ve bağlantı şifresi, bağlantı özelliklerini belirler. İki seçenek mevcuttur: - İsimsiz DN arama: İki alanı da boş bırakın. - Yönetici bağlantısı: Yönetici hesabının kullanıcı adını, bağlantı ismi olarak kullanın, Örneğin Administrator. Bağlantı şifresi, yönetici hesabınızın şifresidir.
+PARAMCONNECTPASSWORD=Bağlantı şifresi, yönetici hesabının şifresidir. Bu şifre, yetkilendirme sonrası bağlama ve yetkilendirme karşılaştırmalarında kullanılacaktır.
+PARAMLDAPV3=Varsayılan LDAP sürüm 2. Ancak OpenLdap'ın son sürümleri, LDAP sürüm 3 gerektirir.
+PARAMNEGOCIATETLS=LDAP Sunucusu ile TLS şifrelemesini kullanılabilir hale getirir. Tüm trafiğin şifrelenmiş LDAP Sunucusundan gelmesini gerektirir.
+PARAMFOLLOW=Bu seçenek LDAP_OPT_REFERRALS bayrağını temizler. Windows 2003 sunucuları için, bu seçeneği işaretlemelisiniz.
+PARAMSEARCHSTRING=Verilen kullanıcı için arama yapan sorgu dizini. [search] anahtarı, kullanıcı girişi ile dinamik olarak değiştirilir, Örneğin: uid=[search]. Virgülle ayrılarak çeşitli dizinler kullanılabilir. Sadece aramalarda kullanılır.
+PARAMUSERSDN=[username] anahtarı, kullanıcı girişi ile dinamik olarak değiştirilir, Örneğin: uid=[username], dc=my-domain, dc=com. Virgülle ayrılarak çeşitli dizinler kullanılabilir. Sadece doğrudan bağlamalarda kullanılır.
+PARAMMAPFN=Kullanıcının tam ismini içeren LDAP özniteliği
+PARAMMAPEMAIL=Kullanıcı e-Posta adresini içeren LDAP özniteliği
+PARAMMAPUID=Etkin dizin için sAMAccountName olan kullanıcının giriş kimliğini içeren LDAP özniteliği.
+PARAMMAPPASSWORD=Kullanıcı şifresinin karşılaştırmasını içeren LDAP özniteliği
+PORT=Bağlantı Noktası
+SEARCH STRING=Arama Dizini
+THE BASE DN OF YOUR LDAP SERVER=LDAP Sunucunuzun temel DN'si, ör: o=mydomain.com
+USERS DN=Kullanıcıların DN'si
+YES=Evet

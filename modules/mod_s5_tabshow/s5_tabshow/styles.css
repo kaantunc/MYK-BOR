@@ -1,0 +1,163 @@
+/* s5_button css */
+#s5_button {
+	position: relative; /* important */
+	overflow: hidden;
+	margin: 0;
+	z-index:1;
+}
+
+#s5_button_content {
+	position: relative;
+	top: 0;
+	z-index:1;
+	margin-left: 0;
+}
+
+#s5_button_content
+#s5_button_content li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+	#s5_button_content {
+		width: 13440px;
+	}
+	#container_bd #s5_button ul li {
+		display: block;
+		float: left;
+		margin: 0;
+		z-index:1;
+		padding: 0;
+		border: none;
+		background-color: #fff;
+	}
+
+#container_bd #s5_button ul li img {
+	display: block;
+}
+
+
+#container_bd #s5_button_frame ul li {
+	margin: 0 2px;
+}
+#container_bd #s5_button_frame ul li img{
+	padding: 2px; }
+
+
+
+
+#s5_button_content li {
+	padding-left:0px;
+	float:left;}
+	
+#s5_button_content li li {
+	list-style-image:none;
+list-style-position:outside;
+list-style-type:disc;
+	float:none;}
+	
+	
+	
+#s5_button_frame a:hover {
+	text-decoration:none;}
+	
+#s5_button_frame ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+padding-left:0px;
+height:35px;
+padding-left:0px;
+margin:0;
+}
+
+
+#s5_button_content li {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-left:-1px;
+line-height:16px;
+margin-bottom:0px;
+}
+
+#s5_button_frame  ul li {
+	cursor:pointer;
+	float:left;
+}
+	
+#s5_button_frame  ul li a {
+	height:25px;
+	display:block;
+	padding-right:17px;
+	padding-left:17px;
+	padding-top:10px;
+}
+
+* html #s5_button_frame  ul li a {
+display:inline;
+}
+
+#s5_button_frame ul li:hover, #s5_button_frame ul li.over {
+	position:relative;
+	color:#000000;
+	cursor:pointer;}
+		
+#s5_button_frame ul li.s5_fsfirst {
+	cursor:pointer;}
+	
+#s5_button_frame ul li.s5_fsfirst:hover, #s5_button_frame ul li.s5_fsfirst.over {
+	cursor:pointer;}
+	
+#s5_button_content .moduletable {
+padding:0px;
+}
+
+#s5_button_content div.moduletable {
+border:none;
+margin:0px;
+font-size:12px;
+}
+
+#s5_button_content div.moduletable h3 {
+border:none;
+padding:0px;
+margin:0px;
+font-size:14px;
+margin-bottom:4px;
+}
+
+#s5_button_frame {
+font-weight:bold;
+}
+
+#s5_buttonswrap_ts {
+	height:7px;
+	position:relative;
+	z-index:1;}
+	
+#s5_button_wrap2 {
+padding-top:0px;
+padding-left:8px;
+}
+
+#s5_button_wrap2 a {
+color:#FFFFFF;
+}
+
+#s5_button_frame ul li {
+padding:0px;
+}
+
+* html #s5_button_frame ul li {
+padding-top:10px;
+padding-bottom:11px;
+}
+
+#s5_button p {
+padding:0px;
+}
+
+#s5_tabshow_left, #s5_button, #s5_tabshow_right {
+	margin-bottom:0px;
+	background:#000000;}

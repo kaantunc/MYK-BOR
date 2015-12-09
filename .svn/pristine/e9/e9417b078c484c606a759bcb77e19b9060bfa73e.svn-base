@@ -1,0 +1,33 @@
+# $Id: tr-TR.plg_system_debug.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+ALL MODES=Tüm kipler
+DESIGNER MODE=Düzenleme kipi
+DIAGNOSTIC MODE=Tanılama kipi
+DISPLAY LOADED LANGUAGE FILES=Yüklü dil dosyalarını görüntüle
+DISPLAYS ORPHANED STRINGS IN DIFFERENT WAYS=Bağlı olmayan kodları farklı yollarla görüntüler
+IF YES, DISPLAY A LIST OF THE LANGUAGE FILES LOADED=Eğer evet ise, yüklü dil dosyalarının bir listesini görüntüleler.
+STRING FORMAT=Kod Biçimi
+STRIP STRING PREFIX=Anahtar Önekini Çıkar
+STRIP STRING PREFIX DESC=Tasarımcı sonuçlarını göstermek üzere mevcut kodlardaki önekleri çıkar
+DISPLAY PROFILING INFORMATION=Profil Bilgisini Görüntüle
+IF YES, DISPLAY PROFILING INFORMATION=Eğer evet ise,  profil bilgisini görüntüler
+DISPLAY SQL QUERY LOG=SQL sorgusu günlüğünü görüntüle
+DISPLAY MEMORY USAGE=Bellek kullanımını görüntüle
+DISPLAY UNDEFINED LANGUAGE STRINGS=Tanımlanmamış dil dizgisini göster.
+IF YES, DISPLAY SQL QUERY LOG=Eğer evet ise, SQL sorgusu günlüğünü görüntüler.
+IF YES, DISPLAY MEMORY USAGE=Eğer evet ise, bellek kullanımını görüntüler.
+IF YES, DISPLAY UNDEFINED LANGUAGE STRINGS=Eğer evet ise, tanımlanmamış dil dizgisini görüntüler.
+LANGUAGE FILES LOADED=Yüklenen Dil Dosyaları
+MEMORY USAGE=Bellek Kullanımı
+PROFILE INFORMATION=Profil Bilgisi
+PROVIDES DEBUG INFORMATION=Hata ayıklama bilgisini sağlar
+QUERIES LOGGED=%s sorgu kaydedildi.
+LEGACY QUERIES LOGGED=%s geriye uyumluyu sorgu kaydedildi.
+UNTRANSLATED STRINGS=Çevrilmemiş dil dizgisi
+UNTRANSLATED STRINGS DESIGNER=Çevrilmemiş Kod Tasarımcısı
+UNTRANSLATED STRINGS DIAGNOSTIC=Çevrilmemiş Kod Tanılayıcısı

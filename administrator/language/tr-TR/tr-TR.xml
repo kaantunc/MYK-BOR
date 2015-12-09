@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: tr-TR.xml 00000 2010-17-05 00:00:00 umitkenan $ -->
+<metafile version="1.5" client="administrator">
+	<tag>tr-TR</tag>
+    <name>Türkçe (Türkiye)</name>
+	<description>Turkish language administrator pack for Joomla</description>
+	<version>1.5.11</version>
+	<creationDate>2010-17-05</creationDate>
+	<author>Ümit Kenan Gönüllü</author>
+	<authorUrl>www.jt.gen.tr</authorUrl>
+	<authorEmail>info@jt.gen.tr</authorEmail>
+    <copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved</copyright>
+    <copyright>Translation 2006 - 2010 Ümit Kenan Gönüllü</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<metadata>
+		<name>Turkish (Turkiye)</name>
+		<tag>tr-TR</tag>
+		<rtl>0</rtl>
+		<locale>tr_TR.utf8, tr, tr_TR, turkish, Turkish_Standard, Tur_TR,  tr_TR.UTF-8, tr_TR.ISO8859-9, tr_TR.iso88599, tr_TR.UTF-8@euro</locale>
+		<winCodePage>iso-8859-9</winCodePage>
+		<backwardLang>turkish</backwardLang>
+	</metadata>
+	<params />
+</metafile>

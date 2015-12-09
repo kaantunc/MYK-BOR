@@ -1,0 +1,18 @@
+# $Id: tr-TR.mod_latest.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+A FILTER FOR THE AUTHORS=Yazar Süzgeci
+ADDED OR MODIFIED BY ME=Tarafımdan eklendi ya da düzenlendi
+ANYONE=Herhangi Biri
+AUTHORS=Yazarlar
+DESCLATESTNEWS=Bu modül, en son yayınlanan makalelerin listesini gösterir. Bazı makaleler, süre aşımına uğradığı için gösterilmeyebilir.
+MOD_LATEST=mod_latest
+NO MATCHING RESULTS=Eşleşen sonuç yok
+NOT ADDED OR MODIFIED BY ME=Tarafımdan eklenmedi ya da düzenlenmedi
+ORDERING OPTIONS=Sıralama seçenekleri
+RECENTLY ADDED FIRST=En Baştaki Son Eklenen
+RECENTLY MODIFIED FIRST=En Baştaki Son Düzenlenen

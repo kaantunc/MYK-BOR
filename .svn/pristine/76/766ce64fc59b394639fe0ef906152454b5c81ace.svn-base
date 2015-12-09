@@ -1,0 +1,14 @@
+# $Id: tr-TR.mod_poll.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+DESCPOLL=Bu modül anket bileşenini çağırır. Yapılandırılmış anketlerin görüntülenmeside kullanılır. Anket modülünde görüntülemek için belirli bir anketi seçebilirsiniz.
+MOD_POLL=<em>mod_poll</em>
+POLL=Anket
+VOTE=Oyla
+PARAMMODULEPOLL=Görüntülenecek anket
+SELECT POLL=Anket seçiniz
+

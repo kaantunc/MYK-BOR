@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript" src="addrow.js">
+</script>
+
+<style type="text/css">
+
+input, select { font-size: 10px;  border: 1px solid silver; }
+textarea      { font-size: 11px;  border: 1px solid silver; }
+button        { font-size: 10px;  }
+
+input.disabled { background-color: #F0F0F0; }
+
+input.button  { cursor: pointer;   }
+
+input:focus,
+select:focus,
+textarea:focus { background-color: #ffd }
+
+.tablo_header{
+	background-color:#DDDDDD;
+}
+
+.tablo_row{
+	background-color:#F0F0F0;
+	text-align:center;
+}
+
+.tablo_sil_hucre{
+	text-align:center;
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="tablo_dosya_div"></div>
+<hr />
+<div id="tablo_dosya2_div"></div>
+
+<script type="text/javascript">
+
+// ----------- Text, Upload, Combo -----------
+dTables.tablo_dosya = new Array(
+		new Array("text"),
+		new Array("upload"),
+		new Array( "combo",
+				new Array(
+					new Array("option1id", "option1val"),
+					new Array("option2id", "option2val")))
+		);
+
+createTable('tablo_dosya',new Array ('Açıklama','Dosya','ol'));
+
+//------------- Text, Radio -----------------
+dTables.tablo_dosya2 = new Array(
+		new Array("text",50), // text field in size ı da verilir
+		new Array("textarea"),
+		new Array("textarea","2","50"),// rows, cols
+		new Array( "radio",
+				new Array(new Array("option1id", "option1val"),
+				new Array("option2id", "option2val")))
+		);
+
+// <br /> tag i aynen bu şekilde yazılırsa kullanılabilir
+createTable('tablo_dosya2',new Array ('Text','Textarea<br />standart','Textarea özel','Radio'));
+
+
+</script>
+
+
+</body>
+</html>

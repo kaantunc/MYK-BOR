@@ -1,0 +1,27 @@
+# $Id: tr-TR.mod_wrapper.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+AUTO=Otomatik
+AUTO ADD=Otomatik Ekle
+AUTO HEIGHT=Yüksekliği Otomatik Belirle
+HEIGHT=Yükseklik
+HEIGHT OF THE IFRAME WINDOW=IFrame Penceresinin Yüksekliği
+MOD_WRAPPER=<em>mod_wrapper</em>
+NAME OF THE IFRAME WHEN USED AS TARGET=Hedef olarak kullanıldığında IFrame ismi
+NO_IFRAMES=IFrame yok
+PARAMAUTOADD=Sağladığınız alan adında http:// veya https:// bulunamazsa varsayılan olarak http:// eklenir, bu durum bu yeteneği kapamanıza izin verir
+PARAMAUTOHEIGHT=Yükseklik harici sayfanın boyutlarına göre otomatik ayarlanacaktır. Sadece kendi etki alanınızda ki sayfalarda geçerlidir.
+PARAMWIDTH=IFrame penceresinin genişliği, piksel olarak tam veri veya bir % kullanarak yüzde değeri girebilirsiniz.
+SCROLL BARS=Kaydırma Çubukları
+SHOW/HIDE HORIZONTAL AND VERTICAL SCROLL BARS.=Yatay &amp; Dikey Kaydırma Çubuklarını Göster/Gizle.
+TARGET NAME=Hedef ismi
+THIS MODULE SHOWS AN IFRAME WINDOW TO SPECIFIED LOCATION=Bu modül belirtilen konumda bir IFrame penceresi gösterir
+URL=Site Adı
+URL TO SITE/FILE YOU WISH TO DISPLAY WITHIN THE IFRAME=Site adı/IFrame içinde görüntülemek istediğiniz dosya
+WRAPPER=Sarıcı
+WIDTH=Genişlik
+WRAPPER MODULE=Sarıcı Modül

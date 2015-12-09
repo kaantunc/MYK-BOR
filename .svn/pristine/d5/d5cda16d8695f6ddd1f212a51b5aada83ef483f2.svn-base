@@ -1,0 +1,32 @@
+SERTIFIKA_KAYDEDILDI=Sertifika bildiriminiz kaydedilmiştir.
+SERTIFIKA_KAYDET_HATA=Sertifika bildirimini kaydederken hata oluştu.
+
+ISLAK_IMZA=Aşağıdaki linkteki belgenin çıktısını alarak kuruma ıslak imzalı olarak getiriniz.
+
+SINAV_ONCESI_KAYDEDILDI=Sınav bildiriminiz kaydedilmiştir.
+SINAV_ONCESI_KAYDET_HATA=Sınav bildirimini kaydederken hata oluştu.
+
+SINAV_SONUC_KAYDEDILDI=Sınav sonuçları kaydedilmiştir.
+SINAV_SONUC_KAYDET_HATA=Sınav sonuçlarını kaydederken hata oluştu.
+
+TAKVIM_KAYDEDILDI=Sınav takviminiz eklenmiştir.
+TAKVIM_KAYDET_HATA=Sınav takviminizi kaydederken hata oluştu.
+TAKVIM_GUNCELLENDI=Sınav takviminiz güncellenmiştir.
+
+YETERLILIK_CELISKI=Seçtiğiniz sınavlar, aynı yeterlilik için yapılmamış.
+SINAV_SECILMEDI=Sertfika basvurusu yapmak için sınav seçiniz.
+
+LOGIN_DESCRIPTION=Sitenin bu alanına erişmek için lütfen giriş yapın.
+
+SINAV_BILDIRIMI_YOK=Hiçbir sınav bildirimi yok.
+SINAV_SONUC_GIRILMIS=Sonuç Girildi
+
+SERTIFIKA_BASVURUSU_YAPILMIS=Başvuruldu
+
+YETERLILIK_YETKI_HATASI=Bu yeterliliği kullanma hakkınız bulunmamaktadır.
+
+EVRAK_YETKI_HATASI=Bu evrak üzerinden işlem yapma yetkiniz yoktur.
+
+SINAV_SONUC_GIRILMEMIS=Sonuç girilmedi
+
+SERTIFIKA_BASVURUSU_YAPILMAMIS=Başvuru yapılmadı

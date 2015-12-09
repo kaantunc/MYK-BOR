@@ -1,0 +1,59 @@
+# $Id: tr-TR.com_frontpage.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+AUTHOR NAMES=Yazar İsimleri
+ARCHIVE=Arşiv
+CATEGORY NAME=Kategori İsmi
+CATEGORY NAME LINKABLE=Bağlantılı Kategori İsmi
+CREATED DATE AND TIME=Oluşturulma Tarih ve Zamanı
+EMAIL ICON=e-Posta Simgesi
+FRONTPAGE ITEMS=Ön Sayfa Makaleleri
+FRONTPAGE MANAGER=Ön Sayfa Yöneticisi
+ITEM RATING=Makale Değerlendirme
+ITEM TITLES=Makale Başlıkları
+LINKED TITLES=Bağlantılanmış Başlıklar
+MAKE YOUR ITEM TITLES LINKABLE=Makale başlığını tıklanabilir yap
+MODIFIED=Düzenlendi
+MODIFIED DATE AND TIME=Düzenleme Tarih ve Zamanı
+NUM INTRO=# Giriş
+NUM LEADING=# Tanıtım
+NUMBER OF ITEMS TO DISPLAY AS LINKS.=Bağlantı olarak gösterilen makale sayısı
+ORDER ITEMS BY CATEGORY=Makaleleri kategorilerine göre sırala
+ORDER THAT THE ITEMS WILL BE DISPLAYED IN.=Makale gösterim sırası
+PAGINATION=Sayfalandırma
+PAGINATION RESULTS=Sayfalandırma Sonuçları
+PARAMAUTHOR=Yazarları göster/gizle (sadece bu sayfada etkilidir)
+PARAMCATEG=Makale kategorisini göster/gizle
+PARAMCATEGLINK=Kategori başlığını kategori sayfasına bağlantı olarak ayarla
+PARAMCOLUMNS=Giriş metni hazırlandığında, her satır için kaç sütun görüntüleneceğini tanımla
+PARAMCREATEDATE=Makalenin oluşturulma tarihini göster/gizle (sadece bu sayfada etkilidir)
+PARAMEMAIL=e-Posta düğmesini göster/gizle (sadece bu sayfada etkilidir)
+PARAMINTRO=Giriş metni ile gösterilen makale sayısı
+PARAMLEADING=Tanıtımı yapılan (tüm metin) makale sayısı. Sayı ile sıfır, hiçbir makalenin ön sayfada tam metin olarak gösterilmeyeceğini belirtir.
+PARAMMODIFYDATE=Makale düzenleme tarihini göster/gizle (sadece bu sayfada etkilidir)
+PARAMPAGINATIONRESULTS=Sayfalandırma sonuçlarını göster/gizle (Ör: 1-4 toplam 4)
+PARAMPDF=PDF simgesini göster/gizle (sadece bu sayfada etkilidir)
+PARAMPRINT=Yazıcı Simgesini göster/gizle (sadece bu sayfada etkilidir)
+PARAMRATING=Makale değerlendirmeyi göster/gizle (sadece bu sayfada etkilidir)
+PARAMSECTION=Makale bölümünü göster/gizle
+PARAMSECTIONLINK=Bölüm ismini bölüm sayfasına bağlantı olarak ayarla
+#If the variable does not work in your language use following line
+# PLEASE MAKE A SELECTION FROM THE LIST TO=Please select an Article from the list
+#instead of
+PLEASE MAKE A SELECTION FROM THE LIST TO=%s işlemi için listeden makale seçin
+PDF ICON=PDF Simgesi
+PRIMARY ORDER=Birincil Sıra
+READ MORE=Devamını Oku...
+REMOVE=Kaldır
+SELECT A SECTION=Bölüm Seçin
+SECTION NAME=Bölüm İsmi
+SECTION NAME LINKABLE=Tıklanabilir Bölüm İsmi
+SELECT CATEGORY=Kategori Seçin
+SHOW/HIDE PAGINATION SUPPORT=Sayfalandırma desteğini göster/gizle
+SHOW/HIDE THE ITEMS TITLE=Makale başlığını göster/gizle
+SHOW/HIDE THE READ MORE LINK=Devamını Oku... bağlantısını göster/gizle
+UNCATEGORIZED=Kategorize Edilmemiş

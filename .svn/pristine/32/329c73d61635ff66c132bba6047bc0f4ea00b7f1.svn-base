@@ -1,0 +1,35 @@
+# $Id: tr-TR.com_poll.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+A POLL=Anket
+ALL=Tümü
+CHANGES TO POLL SAVED=Değişiklikler ankete kaydedildi
+(SECONDS BETWEEN VOTES)=(iki oylama arasındaki süre)
+EDIT POLL=Anketi Düzenle
+LAG=Gecikme
+MENU ITEM LINK(S)=Menü Öğesi Bağlantısı
+OPTION=Seçenek
+OPTIONS=Seçenekler
+#If the variable does not work in your language use following line
+# PLEASE MAKE A SELECTION FROM THE LIST TO=Please select a Poll from the list
+#instead of
+PLEASE MAKE A SELECTION FROM THE LIST TO=%s işlemi için listeden anket seçin
+PLEASE SELECT A POLL=Lütfen bir anket seçiniz
+POLL=Anket
+POLL LAYOUT=Anket Düzeni
+POLL MANAGER=Anket Yöneticisi
+POLL MUST HAVE A NON-ZERO LAG TIME=Anket gecikme zamanı sıfır olmamalıdır
+POLL MUST HAVE A TITLE=Anketin başlığını girmelisiniz
+POLL TITLE=Anket Başlığı
+POLL SAVED=Anket kaydedildi
+SELECT POLL=Anket Seçin
+SHOW ON MENU ITEMS=Menü Öğelerinde Göster
+STANDARD POLL LAYOUT DESC=Anket düzeni, anket sonuçlarını gösterir.
+THE POLL=Anket
+THIS COMPONENT MANAGES POLLS=Bu bileşen, anketleri yönetir.
+UNASSIGNED=Atanmamış
+VOTES=Oylar

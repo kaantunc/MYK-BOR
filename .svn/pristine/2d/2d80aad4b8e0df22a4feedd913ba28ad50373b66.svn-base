@@ -1,0 +1,77 @@
+# $Id: tr-TR.com_modules.ini 2010-17-05 00:00:00 umitkenan $
+# Joomla! Turkish Translation
+# Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# Copyright (C) Translation 2007 - 2010 Ümit Kenan Gönüllü
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+ADMIN=yönetici
+ADMINISTRATOR=Yönetici
+ADMIN MENU=Yönetici Menüsü
+ADMIN SUBMENU=Yönetici Alt Menüsü
+ALL=Tümü
+CACHE TIME=Ön Bellek Süresi
+CACHING=Ön Bellekleme
+COMPONENT LIST=Bileşen Listesi
+COPY OF=%s Kopyası
+CUSTOM HTML=Özel Biçimlendirilmiş HTML
+CUSTOM OUTPUT=Özel Biçimlendirilmiş Çıktı
+EDIT=Düzenle
+EDIT MENU=Menüyü düzenlemek için tıklatın
+EDIT MODULE=Modülü düzenlemek için tıklatın
+FEED DISPLAY=Besleme Görünümü
+FOOTER=Alt Bilgi
+GO=Git
+ITEMS STATS=Öğe İstatistikleri
+LATEST NEWS=Son Haberler
+LOGGED IN USERS=Giriş Yapmış Kullanıcılar
+LOGIN FORM=Giriş Formu
+MENU TAG ID=Menü Etiket Kimliği
+MODULE=Modül
+MODULE_POSITION_TIP_TEXT=Açılır kutudan, önceden tanımlanmış modül konumlarından birini seçebilir veya ismini yazarak kendi modül konumunuzu girebilirsiniz.
+MODULE_POSITION_TIP_TITLE=Modül Konumları
+MODULE CLASS SUFFIX=Modül Sınıf Soneki
+MODULE MANAGER=Modül Yöneticisi
+MODULE MUST HAVE A TITLE=Modülün bir başlığı olmalıdır.
+MODULE NAME=Modül İsmi
+MODULE PARAMETERS=Modül Özellikleri
+MODULE TYPE=Modül Türü
+MODULE(S)=Modül
+MODULES=Modüller
+MENU ASSIGNMENT=Menü Atama
+NEVER=Asla
+NEW MODULE=Yeni Modül
+NEW=Yeni
+NO CACHING=Ön Bellekleme Yok
+NUM=#
+ONLINE USERS=Çevrimiçi Kullanıcılar
+PAGES=Sayfalar
+PARAMMODULECLASSSUFFIX=Farklı modül biçemleri kullanabilmeniz için, modülün CSS sınıf sonekini belirlemelisiniz.
+POPULAR ITEMS=Sevilen Makaleler
+PUBLISH=Etkin
+PUBLISH ITEM=Modülü Etkinleştir
+PUBLISHED=Etkinleştirildi
+RESET=Sıfırla
+SELECT FROM LIST=Listeden menü öğesi seçin
+SELECT WHETHER TO CACHE THE CONTENT OF THIS MODULE=Modül içeriği ön belleklensin mi?
+SELECT POSITION=Konumu Seçin
+SELECT TEMPLATE=Şablon Seçin
+SELECT TYPE=Tür Seçin
+SHOW TITLE=Başlık Seçin
+SITE MODULES=Site Modülleri
+THE TIME BEFORE THE MODULE IS RECACHED=Modül ön belleğinin yenilenme sürecidir.
+THERE ARE NO PARAMETERS FOR THIS ITEM=Bu modül için özellik bulunmamaktadır
+THIS MODULE DISPLAYS THE BREADCRUMBS=Bu modül, hiyararşik menüleri gösterir.
+THIS MODULE ALLOWS THE DISPLAYING OF A SYNDICATED FEED=Bu modül, haber beslemlerinin gösterilmesine izin verir.
+TOOLBAR=Araç Çubuğu
+UNASSIGNED=Atanmamış
+UNPUBLISH=Etkisiz Kıl
+UNPUBLISH ITEM=Modülü Etkisiz Kıl
+UNPUBLISHED=Etkisiz Kılındı
+UNREAD ITEMS=Okunmamış Mesajlar
+USER STATUS=Kullanıcı Durumu
+VARIES=Çeşitler
+WARNMAINMENU=<em>mod_mainmenu</em> modülü, Joomla! nın ana modüllerinden birisi olduğundan silemezsiniz.
+WARNMODULES=Silinemez. Modüllerden kaldırılabilirler.
+YOU CAN ONLY PREVIEW NEW MODULES.=Sadece yeni modüllere önizleme yapabilirsiniz.
+WHO'S ONLINE=Kimler Çevrimiçi
