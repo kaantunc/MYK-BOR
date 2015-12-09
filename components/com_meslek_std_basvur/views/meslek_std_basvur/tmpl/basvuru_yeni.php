@@ -69,7 +69,7 @@ if($basvuru['BASVURU_DURUM_ID'] == "" || $basvuru['BASVURU_DURUM_ID'] == "-1" ||
 </div>
     <div class="form_item">
         <div class="form_element cf_textbox">
-            <label class="cf_label" style="width: 150px;">Başvuran Ortak Kuruluşlar</label>
+            <label class="cf_label" style="width: 250px;">Başvuran Ortak Kuruluşlar</label>
         </div>
         <div class="cfclear">&nbsp;</div>
     </div>
@@ -87,8 +87,8 @@ if($basvuru['BASVURU_DURUM_ID'] == "" || $basvuru['BASVURU_DURUM_ID'] == "-1" ||
 
                     </tbody>
                 </table>
-                <input id="BasKurEkle" type="button" value="Ortak Kuruluş Ekle">
             </div>
+            <input id="BasKurEkle" type="button" value="Ortak Kuruluş Ekle">
         </div>
         <div class="cfclear">&nbsp;</div>
     </div>
@@ -202,7 +202,7 @@ if($basvuru['BASVURU_DURUM_ID'] == "" || $basvuru['BASVURU_DURUM_ID'] == "-1" ||
             e.preventDefault();
             jQuery('#tBodyBasKur').append('<?php echo $SelKur;?>');
         });
-        jQuery('#tBodyBasKur button.OrtakSil').live('click',function(e){
+        jQuery('#tBodyBasKur td>button.OrtakSil').live('click',function(e){
             e.preventDefault();
             jQuery(this).closeset('tr').remove();
         });

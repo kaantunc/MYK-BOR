@@ -89,7 +89,7 @@ class Meslek_Std_BasvurModelMeslek_Std_Basvur extends JModel {
         $data = $db->prep_exec($sql, array($kurulusId,$kurulusId));
 
         if($data){
-            return $data[0];
+            return $data;
         }else{
             return false;
         }

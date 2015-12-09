@@ -26,6 +26,12 @@ $document->addStyleSheet( SITE_URL.'/templates/elegance/css/jscal2.css' );
 $document->addStyleSheet( SITE_URL.'/templates/elegance/css/border-radius.css' );
 $document->addStyleSheet( SITE_URL.'/components/com_chronocontact/themes/default/css/style1.css' );
 
+//font-awesome
+$document->addStyleSheet( SITE_URL.'/includes/fa/css/font-awesome.min.css');
+// ktstyle *** Kaan TUNC
+$document->addStyleSheet( SITE_URL.'media/system/css/ktstyle.css' );
+
+$document->addScript (SITE_URL.'/templates/elegance/js/jquery.blockUI.js');
 /**
  * Rate Component Controller
  */
