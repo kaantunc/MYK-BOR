@@ -86,7 +86,7 @@ if($basvuru['BASVURU_DURUM_ID'] == "" || $basvuru['BASVURU_DURUM_ID'] == "-1" ||
 
                     </tbody>
                 </table>
-            <input id="BasKurEkle" type="button" value="Ortak Kuruluş Ekle">
+            <input id="BasKurEkle" type="button" value="Ortak Kuruluş Ekle" style="display:block;">
         </div>
         <div class="cfclear">&nbsp;</div>
     </div>
